@@ -1,0 +1,15 @@
+raw_data/
+reference/
+alignment/
+
+*.fastq
+*.fastq.gz
+*.fastqsanger.gz
+*.sam
+*.bam
+*.bai
+
+.DS_Store
+
+qc/*_fastqc.zip
+qc/multiqc_data/
