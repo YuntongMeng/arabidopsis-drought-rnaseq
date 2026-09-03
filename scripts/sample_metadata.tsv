@@ -1,0 +1,12 @@
+sample_id	sra_run	genotype	condition	replicate
+WT_Drought_Rep1	SRR7779219	WT	drought	1
+WT_Drought_Rep2	SRR7779220	WT	drought	2
+WT_Drought_Rep3	SRR7779221	WT	drought	3
+BRL3_Drought_Rep1	SRR7779222	BRL3	drought	1
+BRL3_Drought_Rep2	SRR7779223	BRL3	drought	2
+BRL3_Drought_Rep3	SRR7779224	BRL3	drought	3
+WT_Watered_Rep1	SRR7779225	WT	watered	1
+WT_Watered_Rep2	SRR7779226	WT	watered	2
+WT_Watered_Rep3	SRR7779227	WT	watered	3
+BRL3_Watered_Rep1	SRR7779228	BRL3	watered	1
+BRL3_Watered_Rep3	SRR7779229	BRL3	watered	3
