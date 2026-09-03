@@ -13,3 +13,8 @@ alignment/
 
 qc/*_fastqc.zip
 qc/multiqc_data/
+
+counts/*_s0.txt
+counts/*_s0.txt.summary
+counts/*_s1.txt
+counts/*_s1.txt.summary
