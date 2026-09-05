@@ -18,3 +18,7 @@ counts/*_s0.txt
 counts/*_s0.txt.summary
 counts/*_s1.txt
 counts/*_s1.txt.summary
+
+SRR*/
+**/*_fastqc.zip
+**/multiqc_data/
