@@ -22,3 +22,17 @@ counts/*_s1.txt.summary
 SRR*/
 **/*_fastqc.zip
 **/multiqc_data/
+
+.RData
+.Rhistory
+.Rproj.user/
+
+# featureCounts intermediate outputs
+counts/SRR7779219_counts.txt
+counts/SRR7779219_counts.txt.summary
+counts/WT_6samples_featureCounts.txt
+
+# FastQC / MultiQC generated data
+qc/wt_fastqc/
+qc/wt_multiqc/wt_multiqc_report_data/
+
