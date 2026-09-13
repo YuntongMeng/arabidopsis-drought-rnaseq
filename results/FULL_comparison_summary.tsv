@@ -1,0 +1,6 @@
+comparison	total_DEGs	positive_or_up	negative_or_down
+WT drought vs watered	1480	904	576
+BRL3 drought vs watered	2257	1337	920
+BRL3 vs WT under watered	539	105	434
+BRL3 vs WT under drought	591	196	395
+Genotype x drought interaction	137	57	80

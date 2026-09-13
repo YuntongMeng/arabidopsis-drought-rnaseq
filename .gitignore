@@ -36,3 +36,8 @@ counts/WT_6samples_featureCounts.txt
 qc/wt_fastqc/
 qc/wt_multiqc/wt_multiqc_report_data/
 
+
+# Full-dataset generated intermediates
+counts/all_11samples_featureCounts.txt
+qc/*_fastqc/
+**/*_multiqc_report_data/

@@ -2,7 +2,7 @@
 
 An independent reanalysis of publicly available *Arabidopsis thaliana* RNA-seq data to investigate transcriptional responses to drought and the effects of BRL3 overexpression.
 
-The project aims to build a reproducible workflow from raw sequencing reads to differential expression analysis and biological interpretation.
+The main goal of this project was to build and document a reproducible RNA-seq workflow from raw sequencing reads to differential expression analysis and preliminary biological interpretation.
 
 ## Dataset
 
@@ -14,29 +14,113 @@ The original experiment used a factorial design comparing:
 - watered and drought conditions
 - biological replicates from *Arabidopsis thaliana* roots
 
-The public GEO record currently contains 11 RNA-seq samples.
+The public GEO record currently contains 11 RNA-seq samples:
+
+- WT watered: 3 replicates
+- WT drought: 3 replicates
+- BRL3 watered: 2 replicates
+- BRL3 drought: 3 replicates
+
+The unequal number of replicates was retained in the analysis and handled directly using the DESeq2 generalized linear model rather than through sample removal or imputation.
 
 ## Analysis
 
-The analysis is organized in two stages.
+The analysis was performed in two stages.
 
 ### Stage 1 — Wild-type drought response
 
-Six wild-type samples are used to establish the RNA-seq workflow:
+Six wild-type samples were first used to establish the RNA-seq workflow:
 
 - 3 drought biological replicates
 - 3 watered biological replicates
 
-### Stage 2 — BRL3 overexpression and drought response
+Differential expression was evaluated using DESeq2 with watered samples as the reference condition.
 
-The analysis will be extended to the full public dataset to investigate:
+Using:
 
-- transcriptional responses to drought
-- expression changes associated with BRL3 overexpression
-- genotype × condition interaction effects
-- genes whose drought response differs between wild-type and BRL3-overexpressing plants
+- adjusted p-value < 0.05
+- |log2 fold change| ≥ 1
 
-The workflow is:
+the analysis identified **1,480 drought-responsive genes**, including:
+
+- 904 upregulated genes
+- 576 downregulated genes
+
+PCA and sample-distance analysis showed clear separation between watered and drought-treated wild-type samples.
+
+GO Biological Process enrichment highlighted processes associated with water deprivation, abiotic stress responses, and related metabolic processes.
+
+### Stage 2 — Full genotype × condition analysis
+
+The full set of 11 public samples was analyzed using the DESeq2 factorial model:
+
+```r
+~ genotype * condition
+```
+
+This design allows genotype, drought treatment, and genotype × condition interaction effects to be evaluated within the same statistical model.
+
+The following comparisons were examined using the same DEG threshold:
+
+| Comparison | Total DEGs | Positive / Up | Negative / Down |
+| --- | ---: | ---: | ---: |
+| WT drought vs watered | 1480 | 904 | 576 |
+| BRL3 drought vs watered | 2257 | 1337 | 920 |
+| BRL3 vs WT under watered conditions | 539 | 105 | 434 |
+| BRL3 vs WT under drought conditions | 591 | 196 | 395 |
+| Genotype × drought interaction | 137 | 57 | 80 |
+
+The first four comparisons describe direct expression differences between experimental groups.
+
+The interaction term addresses a different question:
+
+> Does the transcriptional response to drought differ between BRL3-overexpressing and wild-type plants?
+
+The interaction corresponds to:
+
+```text
+(BRL3 drought − BRL3 watered)
+−
+(WT drought − WT watered)
+```
+
+Using adjusted p-value < 0.05 and |log2 fold change| ≥ 1, **137 genes showed significant genotype × drought interaction effects**.
+
+Among these:
+
+- 57 showed positive interaction effects
+- 80 showed negative interaction effects
+
+A positive interaction indicates that the drought-associated expression change was more positive in BRL3 than in WT, whereas a negative interaction indicates a more negative or less positive drought response in BRL3.
+
+These terms should not be interpreted simply as gene upregulation or downregulation.
+
+## Biological Interpretation
+
+The reanalysis showed broad transcriptional responses to drought in both wild-type and BRL3-overexpressing plants.
+
+Under the thresholds used here, more drought-responsive genes were detected in BRL3 than in WT. However, DEG counts alone should not be interpreted as evidence that one genotype has a globally stronger drought response, because statistical detection also depends on expression level, effect size, dispersion, and replicate structure.
+
+The genotype × drought interaction analysis was therefore used to identify genes whose drought response differed between genotypes.
+
+GO Biological Process enrichment of the **positive interaction genes** identified several stress-related processes, including:
+
+- jasmonic acid metabolic process
+- long-chain fatty acid metabolic process
+- response to cold
+- cold acclimation
+- response to water deprivation
+- response to water
+
+Genes associated with water-deprivation responses included *KIN1*, *ANAC072*, *AtGolS2*, *LTI30*, *ANAC019*, and *STMP6*.
+
+Jasmonic-acid-related enrichment was also observed among the positive interaction genes. This provides a possible link between BRL3-dependent transcriptional differences and stress-associated signaling or metabolism, but the enrichment result alone is not sufficient to establish a regulatory mechanism.
+
+No significantly enriched GO Biological Process terms were detected for the negative interaction gene set under the enrichment thresholds used in this analysis.
+
+Overall, these results are consistent with genotype-dependent differences in the drought transcriptional response. The biological interpretation presented here is intended as an exploratory interpretation of the reanalyzed RNA-seq data rather than as mechanistic validation of BRL3 function.
+
+## Workflow
 
 ```text
 FASTQ
@@ -53,9 +137,11 @@ Gene-level raw count matrix
   ↓
 DESeq2
   ↓
-PCA / differential expression
+PCA / clustering / differential expression
   ↓
-Functional analysis and biological interpretation
+Genotype × condition interaction analysis
+  ↓
+GO enrichment and biological interpretation
 ```
 
 Reference genome: **TAIR10**  
@@ -66,15 +152,17 @@ Gene annotation: **Ensembl Plants release 63 / Araport11**
 ```text
 counts/       Gene-level count matrices and summaries
 qc/           Quality-control reports
-results/      Downstream analysis results
+results/      Differential expression, figures, and enrichment results
 scripts/      Sample metadata and analysis scripts
 ```
 
 Large raw sequencing files, reference files, and alignment files are excluded from version control.
 
+The downstream analysis is organized into separate scripts for the initial wild-type analysis and the full factorial analysis.
+
 ## Tools
 
-FastQC · MultiQC · HISAT2 · SAMtools · featureCounts · R · DESeq2 · Git
+FastQC · MultiQC · HISAT2 · SAMtools · featureCounts · R · DESeq2 · ggplot2 · clusterProfiler · Git
 
 ## Data and Attribution Statement
 
@@ -82,7 +170,11 @@ This repository contains an independent computational reanalysis of publicly ava
 
 The original experimental design, biological hypotheses, plant material, sample preparation, sequencing, and primary data generation were performed by the authors of the original study. No authorship or ownership of those experimental contributions is claimed here.
 
-Unless otherwise stated, scripts, data processing, statistical analyses, visualizations, and interpretations presented in this repository refer to the independent reanalysis performed in this project.
+The biological conclusions reported in the original publication should likewise be attributed to the original authors.
+
+Unless otherwise stated, scripts, data processing, statistical analyses, visualizations, and interpretations presented in this repository refer specifically to the independent computational reanalysis performed in this project.
+
+This project should therefore be interpreted as a bioinformatics training and reproducibility exercise using an existing public dataset rather than as an independent experimental replication of the original study.
 
 ## References
 
