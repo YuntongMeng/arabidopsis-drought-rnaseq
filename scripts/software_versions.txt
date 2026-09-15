@@ -1,0 +1,17 @@
+FastQC
+FastQC v0.12.1
+
+MultiQC
+multiqc, version 1.35
+
+HISAT2
+/Users/tt/miniforge3/envs/rnaseq/bin/hisat2-align-s version 2.2.3
+
+SAMtools
+samtools 1.24
+
+featureCounts
+featureCounts v2.1.1
+
+R
+R version 4.6.1 (2026-06-24) -- "Happy Hop"

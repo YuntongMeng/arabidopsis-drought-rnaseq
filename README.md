@@ -41,7 +41,7 @@ Using:
 - adjusted p-value < 0.05
 - |log2 fold change| ≥ 1
 
-the analysis identified **1,480 drought-responsive genes**, including:
+the standalone WT-only analysis identified **1,480 drought-responsive genes**, including:
 
 - 904 upregulated genes
 - 576 downregulated genes
@@ -62,13 +62,15 @@ This design allows genotype, drought treatment, and genotype × condition intera
 
 The following comparisons were examined using the same DEG threshold:
 
-| Comparison | Total DEGs | Positive / Up | Negative / Down |
-| --- | ---: | ---: | ---: |
-| WT drought vs watered | 1480 | 904 | 576 |
-| BRL3 drought vs watered | 2257 | 1337 | 920 |
-| BRL3 vs WT under watered conditions | 539 | 105 | 434 |
-| BRL3 vs WT under drought conditions | 591 | 196 | 395 |
-| Genotype × drought interaction | 137 | 57 | 80 |
+| Comparison                          | Total DEGs | Positive / Up | Negative / Down |
+| ----------------------------------- | ---------: | ------------: | --------------: |
+| WT drought vs watered               |       1621 |           986 |             635 |
+| BRL3 drought vs watered             |       2257 |          1337 |             920 |
+| BRL3 vs WT under watered conditions |        539 |           105 |             434 |
+| BRL3 vs WT under drought conditions |        591 |           196 |             395 |
+| Genotype × drought interaction      |        137 |            57 |              80 |
+
+The WT drought-vs-watered contrast yields **1,621 DEGs in the full factorial model**, compared with **1,480 DEGs in the standalone WT-only analysis**. The biological contrast is the same, but the two analyses use different DESeq2 model structures and dispersion-estimation frameworks, which can change which genes pass the statistical thresholds.
 
 The first four comparisons describe direct expression differences between experimental groups.
 
@@ -147,13 +149,87 @@ GO enrichment and biological interpretation
 Reference genome: **TAIR10**  
 Gene annotation: **Ensembl Plants release 63 / Araport11**
 
+## Reproducing the Analysis
+
+The repository includes executable scripts documenting both upstream RNA-seq processing and downstream statistical analysis.
+
+### Upstream processing
+
+Given the raw FASTQ files and prepared TAIR10 reference files, the upstream workflow can be run with:
+
+```bash
+conda activate rnaseq
+bash scripts/upstream_rnaseq_workflow.sh
+```
+
+The upstream workflow performs:
+
+- FastQC quality assessment
+- MultiQC report generation
+- HISAT2 alignment
+- SAMtools sorting and BAM processing
+- reverse-stranded gene-level counting with featureCounts
+- generation of the 11-sample raw count matrix
+
+The workflow was checked using shell syntax and dependency validation and was additionally smoke-tested by rerunning the FASTQ → HISAT2 → SAMtools path on one sample.
+
+Large raw FASTQ files, genome reference files, HISAT2 indices, and BAM files are excluded from version control.
+
+### Downstream analysis
+
+The standalone WT analysis is implemented in:
+
+```text
+scripts/WT_DESeq2_analysis.R
+```
+
+The full genotype × condition analysis is implemented in:
+
+```text
+scripts/FULL_factorial_DESeq2_analysis.R
+```
+
+The full analysis can be rerun from the project root with:
+
+```bash
+Rscript scripts/FULL_factorial_DESeq2_analysis.R
+```
+
+The full factorial script calculates all five reported comparisons directly from the fitted DESeq2 model, including the WT drought-vs-watered contrast. Summary values are generated programmatically rather than manually entered.
+
+### Software environment
+
+Command-line software versions used for the analysis are recorded in:
+
+```text
+scripts/software_versions.txt
+```
+
+The R environment, including versions of DESeq2, ggplot2, clusterProfiler, AnnotationDbi, and other dependencies, is recorded in:
+
+```text
+scripts/R_sessionInfo.txt
+```
+
+Key software versions include:
+
+- FastQC 0.12.1
+- MultiQC 1.35
+- HISAT2 2.2.3
+- SAMtools 1.24
+- featureCounts 2.1.1
+- R 4.6.1
+- DESeq2 1.52.0
+- clusterProfiler 4.20.0
+- org.At.tair.db 3.22.0
+
 ## Repository Structure
 
 ```text
 counts/       Gene-level count matrices and summaries
 qc/           Quality-control reports
 results/      Differential expression, figures, and enrichment results
-scripts/      Sample metadata and analysis scripts
+scripts/      Workflow scripts, analysis scripts, and environment records
 ```
 
 Large raw sequencing files, reference files, and alignment files are excluded from version control.
@@ -181,8 +257,8 @@ This project should therefore be interpreted as a bioinformatics training and re
 Fàbregas, N., Lozano-Elena, F., Blasco-Escámez, D. *et al.*  
 Overexpression of the vascular brassinosteroid receptor BRL3 confers drought resistance without penalizing plant growth.  
 *Nature Communications* **9**, 4680 (2018).  
-https://doi.org/10.1038/s41467-018-06861-3
+[https://doi.org/10.1038/s41467-018-06861-3](https://doi.org/10.1038/s41467-018-06861-3)
 
 NCBI Gene Expression Omnibus.  
 **GSE119382: Transcriptomic study of Arabidopsis roots overexpressing the brassinosteroid receptor BRL3, in control conditions and under severe drought.**  
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119382
+[https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119382](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119382)

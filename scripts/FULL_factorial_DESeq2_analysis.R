@@ -774,14 +774,20 @@ BRL3_vs_WT_drought_DEG <- res_BRL3_vs_WT_drought_df %>%
 # 20. Summary of the five core comparisons
 # ============================================================
 
-# WT drought vs watered results were obtained in the Stage 1
-# analysis using the same DEG thresholds:
-#
-#   total = 1480
-#   up    = 904
-#   down  = 576
+# WT drought vs watered from the full factorial model
+res_WT_drought_full <- results(
+  dds_11,
+  name = "condition_drought_vs_watered"
+)
 
+res_WT_drought_full_df <- as.data.frame(res_WT_drought_full)
 
+WT_drought_full_DEG <- res_WT_drought_full_df %>%
+  filter(
+    !is.na(padj),
+    padj < 0.05,
+    abs(log2FoldChange) >= 1
+  )
 comparison_summary <- data.frame(
   comparison = c(
     "WT drought vs watered",
@@ -792,7 +798,7 @@ comparison_summary <- data.frame(
   ),
   
   total_DEGs = c(
-    1480,
+    nrow(WT_drought_full_DEG),
     nrow(BRL3_drought_DEG),
     nrow(BRL3_vs_WT_watered_DEG),
     nrow(BRL3_vs_WT_drought_DEG),
@@ -800,7 +806,7 @@ comparison_summary <- data.frame(
   ),
   
   positive_or_up = c(
-    904,
+    sum(WT_drought_full_DEG$log2FoldChange > 0),
     sum(BRL3_drought_DEG$log2FoldChange > 0),
     sum(BRL3_vs_WT_watered_DEG$log2FoldChange > 0),
     sum(BRL3_vs_WT_drought_DEG$log2FoldChange > 0),
@@ -808,7 +814,7 @@ comparison_summary <- data.frame(
   ),
   
   negative_or_down = c(
-    576,
+    sum(WT_drought_full_DEG$log2FoldChange < 0),
     sum(BRL3_drought_DEG$log2FoldChange < 0),
     sum(BRL3_vs_WT_watered_DEG$log2FoldChange < 0),
     sum(BRL3_vs_WT_drought_DEG$log2FoldChange < 0),
