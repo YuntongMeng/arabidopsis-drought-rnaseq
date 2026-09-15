@@ -123,12 +123,15 @@ featureCounts \
 # featureCounts output contains annotation columns before the
 # sample count columns. Extract gene_id plus the 11 sample counts.
 
-awk 'BEGIN{FS=OFS="\t"}
-     !/^#/ {
+awk 'BEGIN {
+       FS=OFS="\t"
+       print "gene_id","WT_Drought_Rep1","WT_Drought_Rep2","WT_Drought_Rep3","BRL3_Drought_Rep1","BRL3_Drought_Rep2","BRL3_Drought_Rep3","WT_Watered_Rep1","WT_Watered_Rep2","WT_Watered_Rep3","BRL3_Watered_Rep1","BRL3_Watered_Rep3"
+     }
+     !/^#/ && $1 != "Geneid" {
        print $1,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17
      }' \
   counts/all_11samples_featureCounts.txt \
-  > counts/all_11samples_raw_counts_unlabeled.tsv
+  > counts/all_11samples_raw_counts.tsv
 
 
 echo "Upstream RNA-seq workflow completed."
