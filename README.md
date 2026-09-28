@@ -4,7 +4,33 @@ An independent reanalysis of publicly available *Arabidopsis thaliana* RNA-seq d
 
 The main goal of this project was to build and document a reproducible RNA-seq workflow from raw sequencing reads to differential expression analysis and preliminary biological interpretation.
 
-## Dataset
+## Key findings
+
+- The full factorial model identified **1,621 drought-responsive genes in WT**
+  and **2,257 in BRL3-overexpressing roots** at adjusted p-value < 0.05 and
+  |log2 fold change| ≥ 1.
+- **137 genes showed a significant genotype × drought interaction**, indicating
+  that their drought-associated expression change differed between BRL3 and WT.
+- Positive interaction genes were enriched for seven stress-related GO terms,
+  including water-deprivation, cold-response, jasmonic-acid, and fatty-acid
+  processes. These results provide candidate pathways rather than evidence of a
+  BRL3 regulatory mechanism.
+
+## Analysis overview
+
+The repository contains three executable analysis scripts:
+
+| Script | Purpose | Main validated result |
+|---|---|---|
+| [`scripts/upstream_rnaseq_workflow.sh`](scripts/upstream_rnaseq_workflow.sh) | Runs FastQC/MultiQC, aligns single-end reads to TAIR10, processes BAM files, and generates reverse-stranded gene counts | Documents the complete 11-sample FASTQ-to-count workflow; the alignment path was smoke-tested on one sample |
+| [`scripts/WT_DESeq2_analysis.R`](scripts/WT_DESeq2_analysis.R) | Establishes the downstream workflow using the six WT samples | 1,480 WT drought-responsive genes in the standalone WT model |
+| [`scripts/FULL_factorial_DESeq2_analysis.R`](scripts/FULL_factorial_DESeq2_analysis.R) | Fits the 11-sample genotype × condition model and performs all five contrasts, interaction analysis, and GO enrichment | 137 genotype × drought interaction genes; seven enriched positive-interaction GO terms |
+
+The scripts represent two related downstream analyses rather than sequential
+steps: the WT-only script establishes the initial workflow, while the full
+factorial script answers the main genotype-dependent question.
+
+## Inputs and provenance
 
 RNA-seq data were obtained from **NCBI Gene Expression Omnibus (GEO), accession GSE119382**.
 
@@ -22,6 +48,19 @@ The public GEO record currently contains 11 RNA-seq samples:
 - BRL3 drought: 3 replicates
 
 The unequal number of replicates was retained in the analysis and handled directly using the DESeq2 generalized linear model rather than through sample removal or imputation.
+
+The exact mapping between sample names, SRA run accessions, genotype, condition,
+and replicate is recorded in
+[`scripts/sample_metadata.tsv`](scripts/sample_metadata.tsv). The six runs used
+for the initial WT-only workflow are also listed in
+[`scripts/wt_runs.txt`](scripts/wt_runs.txt).
+
+The tracked downstream input is the generated
+[`counts/all_11samples_raw_counts.tsv`](counts/all_11samples_raw_counts.tsv).
+Raw FASTQ files, the TAIR10 genome and HISAT2 index, the Ensembl Plants release
+63/Araport11 GTF, and BAM files are excluded from Git because of their size.
+Consequently, rerunning from FASTQ requires these external inputs to be restored
+in the paths documented by the upstream script.
 
 ## Analysis
 
@@ -122,6 +161,28 @@ No significantly enriched GO Biological Process terms were detected for the nega
 
 Overall, these results are consistent with genotype-dependent differences in the drought transcriptional response. The biological interpretation presented here is intended as an exploratory interpretation of the reanalyzed RNA-seq data rather than as mechanistic validation of BRL3 function.
 
+## Robustness and interpretation boundary
+
+- The unbalanced 3/3/2/3 replicate structure was retained and modeled directly
+  rather than balanced by discarding or imputing samples.
+- The WT drought contrast was evaluated in both a standalone WT model and the
+  full factorial model. The resulting totals (1,480 and 1,621) differ because
+  dispersion estimation and model structure differ, not because they represent
+  different biological comparisons.
+- PCA and sample-distance analyses support separation of watered and drought WT
+  samples. The upstream commands passed syntax and dependency checks, and the
+  FASTQ-to-alignment path was smoke-tested on one sample.
+- DEG counts alone do not measure the global strength of a drought response, and
+  GO enrichment does not establish regulation or mechanism.
+
+This is a computational reanalysis of an existing bulk root RNA-seq experiment.
+It can identify genotype-associated expression differences and candidate
+pathways, but it cannot assign those differences to particular root cell types
+or experimentally validate how BRL3 produces them. Project 2 uses an independent
+[normal-root single-cell atlas](https://github.com/YuntongMeng/arabidopsis-root-singlecell)
+to add cellular context, but not direct evidence of cell-type-specific drought
+effects.
+
 ## Workflow
 
 ```text
@@ -199,17 +260,11 @@ The full factorial script calculates all five reported comparisons directly from
 
 ### Software environment
 
-Command-line software versions used for the analysis are recorded in:
-
-```text
-scripts/software_versions.txt
-```
+Command-line software versions used for the analysis are recorded in
+[`scripts/software_versions.txt`](scripts/software_versions.txt).
 
 The R environment, including versions of DESeq2, ggplot2, clusterProfiler, AnnotationDbi, and other dependencies, is recorded in:
-
-```text
-scripts/R_sessionInfo.txt
-```
+[`scripts/R_sessionInfo.txt`](scripts/R_sessionInfo.txt).
 
 Key software versions include:
 
@@ -223,14 +278,21 @@ Key software versions include:
 - clusterProfiler 4.20.0
 - org.At.tair.db 3.22.0
 
-## Repository Structure
+## Outputs and repository structure
 
-```text
-counts/       Gene-level count matrices and summaries
-qc/           Quality-control reports
-results/      Differential expression, figures, and enrichment results
-scripts/      Workflow scripts, analysis scripts, and environment records
-```
+- [`counts`](counts): gene-level count matrices and featureCounts summaries.
+- [`qc`](qc): generated MultiQC quality-control reports for WT, BRL3, and the
+  complete dataset.
+- [`results`](results): differential-expression tables, comparison summaries,
+  PCA and distance plots, DEG visualizations, and GO enrichment outputs.
+- [`scripts`](scripts): upstream and downstream workflows, sample metadata, and
+  software-environment records.
+
+Key outputs include the
+[`full comparison summary`](results/FULL_comparison_summary.tsv),
+[`137 interaction genes`](results/FULL_interaction_DEGs_padj0.05_log2FC1.tsv),
+and
+[`positive-interaction GO results`](results/FULL_interaction_GO_enrichment_positive.tsv).
 
 Large raw sequencing files, reference files, and alignment files are excluded from version control.
 
