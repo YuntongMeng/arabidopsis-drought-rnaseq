@@ -4,7 +4,7 @@ An independent reanalysis of public *Arabidopsis thaliana* root RNA-seq data, lo
 
 My main goal was to build and document a reproducible RNA-seq workflow, from raw reads through differential expression to a first biological interpretation.
 
-Related repositories: [Project 2](https://github.com/YuntongMeng/arabidopsis-root-singlecell) · [Project 3](https://github.com/YuntongMeng/arabidopsis-root-multiome).
+Related repositories: [Project 2](https://github.com/YuntongMeng/arabidopsis-root-singlecell) · [Project 3](https://github.com/YuntongMeng/arabidopsis-root-multiome). Part of [Arabidopsis root omics](https://github.com/YuntongMeng/arabidopsis-root-omics).
 
 ## Key findings
 
