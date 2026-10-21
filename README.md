@@ -1,4 +1,4 @@
-# Arabidopsis Drought RNA-seq Reanalysis
+# Arabidopsis drought RNA-seq reanalysis
 
 An independent reanalysis of public *Arabidopsis thaliana* root RNA-seq data, looking at the transcriptional response to drought and how BRL3 overexpression changes it.
 
@@ -32,6 +32,33 @@ The scripts represent two related downstream analyses rather than sequential
 steps: the WT-only script establishes the initial workflow, while the full
 factorial script answers the main genotype-dependent question.
 
+The full workflow:
+
+```text
+FASTQ
+  ↓
+FastQC / MultiQC
+  ↓
+HISAT2 alignment to TAIR10
+  ↓
+SAMtools
+  ↓
+featureCounts
+  ↓
+Gene-level raw count matrix
+  ↓
+DESeq2
+  ↓
+PCA / clustering / differential expression
+  ↓
+Genotype × condition interaction analysis
+  ↓
+GO enrichment and biological interpretation
+```
+
+Reference genome: **TAIR10**  
+Gene annotation: **Ensembl Plants release 63 / Araport11**
+
 ## Inputs and provenance
 
 RNA-seq data were obtained from **NCBI Gene Expression Omnibus (GEO), accession GSE119382**.
@@ -64,7 +91,73 @@ Raw FASTQ files, the TAIR10 genome and HISAT2 index, the Ensembl Plants release
 To rerun from FASTQ, these inputs need to be restored in the paths used by the
 upstream script.
 
-## Analysis
+## Running the analysis
+
+The repository includes executable scripts documenting both upstream RNA-seq processing and downstream statistical analysis.
+
+### Upstream processing
+
+Given the raw FASTQ files and prepared TAIR10 reference files, the upstream workflow can be run with:
+
+```bash
+conda activate rnaseq
+bash scripts/upstream_rnaseq_workflow.sh
+```
+
+The upstream workflow performs:
+
+- FastQC quality assessment
+- MultiQC report generation
+- HISAT2 alignment
+- SAMtools sorting and BAM processing
+- reverse-stranded gene-level counting with featureCounts
+- generation of the 11-sample raw count matrix
+
+I checked the workflow for shell syntax and dependencies, and smoke-tested it by rerunning the FASTQ → HISAT2 → SAMtools path on one sample.
+
+### Downstream analysis
+
+The standalone WT analysis is implemented in:
+
+```text
+scripts/WT_DESeq2_analysis.R
+```
+
+The full genotype × condition analysis is implemented in:
+
+```text
+scripts/FULL_factorial_DESeq2_analysis.R
+```
+
+The full analysis can be rerun from the project root with:
+
+```bash
+Rscript scripts/FULL_factorial_DESeq2_analysis.R
+```
+
+The full factorial script calculates all five reported comparisons directly from the fitted DESeq2 model, including the WT drought-vs-watered contrast. Summary values are generated programmatically rather than manually entered.
+
+### Software environment
+
+Command-line software versions used for the analysis are recorded in
+[`scripts/software_versions.txt`](scripts/software_versions.txt).
+
+The R environment, including versions of DESeq2, ggplot2, clusterProfiler, AnnotationDbi, and other dependencies, is recorded in:
+[`scripts/R_sessionInfo.txt`](scripts/R_sessionInfo.txt).
+
+Key software versions include:
+
+- FastQC 0.12.1
+- MultiQC 1.35
+- HISAT2 2.2.3
+- SAMtools 1.24
+- featureCounts 2.1.1
+- R 4.6.1
+- DESeq2 1.52.0
+- clusterProfiler 4.20.0
+- org.At.tair.db 3.22.0
+
+## Main analysis
 
 The analysis was performed in two stages.
 
@@ -136,7 +229,7 @@ Among these:
 
 A positive interaction means the drought-associated expression change was more positive in BRL3 than in WT. A negative interaction means it was more negative, or less positive, in BRL3. So "positive" and "negative" here are not the same as up- and downregulated.
 
-## Biological Interpretation
+## Biological interpretation
 
 Both wild-type and BRL3-overexpressing plants showed broad transcriptional responses to drought.
 
@@ -171,99 +264,6 @@ GO enrichment cannot show how BRL3 produces them. Project 2 uses an independent
 to add cellular context, but not direct evidence of cell-type-specific drought
 effects.
 
-## Workflow
-
-```text
-FASTQ
-  ↓
-FastQC / MultiQC
-  ↓
-HISAT2 alignment to TAIR10
-  ↓
-SAMtools
-  ↓
-featureCounts
-  ↓
-Gene-level raw count matrix
-  ↓
-DESeq2
-  ↓
-PCA / clustering / differential expression
-  ↓
-Genotype × condition interaction analysis
-  ↓
-GO enrichment and biological interpretation
-```
-
-Reference genome: **TAIR10**  
-Gene annotation: **Ensembl Plants release 63 / Araport11**
-
-## Reproducing the Analysis
-
-The repository includes executable scripts documenting both upstream RNA-seq processing and downstream statistical analysis.
-
-### Upstream processing
-
-Given the raw FASTQ files and prepared TAIR10 reference files, the upstream workflow can be run with:
-
-```bash
-conda activate rnaseq
-bash scripts/upstream_rnaseq_workflow.sh
-```
-
-The upstream workflow performs:
-
-- FastQC quality assessment
-- MultiQC report generation
-- HISAT2 alignment
-- SAMtools sorting and BAM processing
-- reverse-stranded gene-level counting with featureCounts
-- generation of the 11-sample raw count matrix
-
-I checked the workflow for shell syntax and dependencies, and smoke-tested it by rerunning the FASTQ → HISAT2 → SAMtools path on one sample.
-
-### Downstream analysis
-
-The standalone WT analysis is implemented in:
-
-```text
-scripts/WT_DESeq2_analysis.R
-```
-
-The full genotype × condition analysis is implemented in:
-
-```text
-scripts/FULL_factorial_DESeq2_analysis.R
-```
-
-The full analysis can be rerun from the project root with:
-
-```bash
-Rscript scripts/FULL_factorial_DESeq2_analysis.R
-```
-
-The full factorial script calculates all five reported comparisons directly from the fitted DESeq2 model, including the WT drought-vs-watered contrast. Summary values are generated programmatically rather than manually entered.
-
-### Software environment
-
-Command-line software versions used for the analysis are recorded in
-[`scripts/software_versions.txt`](scripts/software_versions.txt).
-
-The R environment, including versions of DESeq2, ggplot2, clusterProfiler, AnnotationDbi, and other dependencies, is recorded in:
-[`scripts/R_sessionInfo.txt`](scripts/R_sessionInfo.txt).
-
-Key software versions include:
-
-- FastQC 0.12.1
-- MultiQC 1.35
-- HISAT2 2.2.3
-- SAMtools 1.24
-- featureCounts 2.1.1
-- R 4.6.1
-- DESeq2 1.52.0
-- clusterProfiler 4.20.0
-- org.At.tair.db 3.22.0
-
 ## Outputs and repository structure
 
 - [`counts`](counts): gene-level count matrices and featureCounts summaries.
@@ -283,11 +283,7 @@ Key outputs include the
 and
 [`positive-interaction GO results`](results/FULL_interaction_GO_enrichment_positive.tsv).
 
-## Tools
-
-FastQC · MultiQC · HISAT2 · SAMtools · featureCounts · R · DESeq2 · ggplot2 · clusterProfiler · Git
-
-## Data and Attribution Statement
+## Data and attribution
 
 This is an independent computational reanalysis of public sequencing data. The experimental design, hypotheses, plant material, sample preparation, sequencing and the conclusions of the original publication belong to its authors (Fàbregas et al., 2018). The scripts, statistics, figures and interpretations here come from this reanalysis.
 
