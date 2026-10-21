@@ -1,8 +1,10 @@
 # Arabidopsis Drought RNA-seq Reanalysis
 
-An independent reanalysis of publicly available *Arabidopsis thaliana* RNA-seq data to investigate transcriptional responses to drought and the effects of BRL3 overexpression.
+An independent reanalysis of public *Arabidopsis thaliana* root RNA-seq data, looking at the transcriptional response to drought and how BRL3 overexpression changes it.
 
-The main goal of this project was to build and document a reproducible RNA-seq workflow from raw sequencing reads to differential expression analysis and preliminary biological interpretation.
+My main goal was to build and document a reproducible RNA-seq workflow, from raw reads through differential expression to a first biological interpretation.
+
+Related repositories: [Project 2](https://github.com/YuntongMeng/arabidopsis-root-singlecell) · [Project 3](https://github.com/YuntongMeng/arabidopsis-root-multiome).
 
 ## Key findings
 
@@ -47,7 +49,7 @@ The public GEO record currently contains 11 RNA-seq samples:
 - BRL3 watered: 2 replicates
 - BRL3 drought: 3 replicates
 
-The unequal number of replicates was retained in the analysis and handled directly using the DESeq2 generalized linear model rather than through sample removal or imputation.
+I kept the unequal replicate numbers and modelled them directly in the DESeq2 generalized linear model, rather than dropping or imputing samples.
 
 The exact mapping between sample names, SRA run accessions, genotype, condition,
 and replicate is recorded in
@@ -59,8 +61,8 @@ The tracked downstream input is the generated
 [`counts/all_11samples_raw_counts.tsv`](counts/all_11samples_raw_counts.tsv).
 Raw FASTQ files, the TAIR10 genome and HISAT2 index, the Ensembl Plants release
 63/Araport11 GTF, and BAM files are excluded from Git because of their size.
-Consequently, rerunning from FASTQ requires these external inputs to be restored
-in the paths documented by the upstream script.
+To rerun from FASTQ, these inputs need to be restored in the paths used by the
+upstream script.
 
 ## Analysis
 
@@ -132,17 +134,15 @@ Among these:
 - 57 showed positive interaction effects
 - 80 showed negative interaction effects
 
-A positive interaction indicates that the drought-associated expression change was more positive in BRL3 than in WT, whereas a negative interaction indicates a more negative or less positive drought response in BRL3.
-
-These terms should not be interpreted simply as gene upregulation or downregulation.
+A positive interaction means the drought-associated expression change was more positive in BRL3 than in WT. A negative interaction means it was more negative, or less positive, in BRL3. So "positive" and "negative" here are not the same as up- and downregulated.
 
 ## Biological Interpretation
 
-The reanalysis showed broad transcriptional responses to drought in both wild-type and BRL3-overexpressing plants.
+Both wild-type and BRL3-overexpressing plants showed broad transcriptional responses to drought.
 
-Under the thresholds used here, more drought-responsive genes were detected in BRL3 than in WT. However, DEG counts alone should not be interpreted as evidence that one genotype has a globally stronger drought response, because statistical detection also depends on expression level, effect size, dispersion, and replicate structure.
+More drought-responsive genes passed the thresholds in BRL3 than in WT. That alone does not mean BRL3 plants have a stronger drought response overall, because whether a gene passes also depends on its expression level, effect size, dispersion and the replicate structure.
 
-The genotype × drought interaction analysis was therefore used to identify genes whose drought response differed between genotypes.
+This is why I used the genotype × drought interaction to find genes whose drought response differed between genotypes.
 
 GO Biological Process enrichment of the **positive interaction genes** identified several stress-related processes, including:
 
@@ -155,30 +155,18 @@ GO Biological Process enrichment of the **positive interaction genes** identifie
 
 Genes associated with water-deprivation responses included *KIN1*, *ANAC072*, *AtGolS2*, *LTI30*, *ANAC019*, and *STMP6*.
 
-Jasmonic-acid-related enrichment was also observed among the positive interaction genes. This provides a possible link between BRL3-dependent transcriptional differences and stress-associated signaling or metabolism, but the enrichment result alone is not sufficient to establish a regulatory mechanism.
+Jasmonic-acid-related terms were also enriched among the positive interaction genes, which points to a possible link between BRL3-dependent expression differences and stress-related signaling or metabolism.
 
-No significantly enriched GO Biological Process terms were detected for the negative interaction gene set under the enrichment thresholds used in this analysis.
+The negative interaction genes had no significantly enriched GO Biological Process terms at the thresholds used here.
 
-Overall, these results are consistent with genotype-dependent differences in the drought transcriptional response. The biological interpretation presented here is intended as an exploratory interpretation of the reanalyzed RNA-seq data rather than as mechanistic validation of BRL3 function.
+Overall, the results are consistent with genotype-dependent differences in the drought transcriptional response.
 
-## Robustness and interpretation boundary
-
-- The unbalanced 3/3/2/3 replicate structure was retained and modeled directly
-  rather than balanced by discarding or imputing samples.
-- The WT drought contrast was evaluated in both a standalone WT model and the
-  full factorial model. The resulting totals (1,480 and 1,621) differ because
-  dispersion estimation and model structure differ, not because they represent
-  different biological comparisons.
-- PCA and sample-distance analyses support separation of watered and drought WT
-  samples. The upstream commands passed syntax and dependency checks, and the
-  FASTQ-to-alignment path was smoke-tested on one sample.
-- DEG counts alone do not measure the global strength of a drought response, and
-  GO enrichment does not establish regulation or mechanism.
+## Interpretation boundary
 
 This is a computational reanalysis of an existing bulk root RNA-seq experiment.
 It can identify genotype-associated expression differences and candidate
-pathways, but it cannot assign those differences to particular root cell types
-or experimentally validate how BRL3 produces them. Project 2 uses an independent
+pathways. It cannot assign those differences to particular root cell types, and
+GO enrichment cannot show how BRL3 produces them. Project 2 uses an independent
 [normal-root single-cell atlas](https://github.com/YuntongMeng/arabidopsis-root-singlecell)
 to add cellular context, but not direct evidence of cell-type-specific drought
 effects.
@@ -232,9 +220,7 @@ The upstream workflow performs:
 - reverse-stranded gene-level counting with featureCounts
 - generation of the 11-sample raw count matrix
 
-The workflow was checked using shell syntax and dependency validation and was additionally smoke-tested by rerunning the FASTQ → HISAT2 → SAMtools path on one sample.
-
-Large raw FASTQ files, genome reference files, HISAT2 indices, and BAM files are excluded from version control.
+I checked the workflow for shell syntax and dependencies, and smoke-tested it by rerunning the FASTQ → HISAT2 → SAMtools path on one sample.
 
 ### Downstream analysis
 
@@ -281,6 +267,9 @@ Key software versions include:
 ## Outputs and repository structure
 
 - [`counts`](counts): gene-level count matrices and featureCounts summaries.
+  `counts/SRR7779222_s2.txt` is from an early strandedness check: I counted one
+  sample with all three featureCounts strandedness settings and chose
+  reverse-stranded counting (`-s 2`) from the results. Only that output is kept.
 - [`qc`](qc): generated MultiQC quality-control reports for WT, BRL3, and the
   complete dataset.
 - [`results`](results): differential-expression tables, comparison summaries,
@@ -294,25 +283,15 @@ Key outputs include the
 and
 [`positive-interaction GO results`](results/FULL_interaction_GO_enrichment_positive.tsv).
 
-Large raw sequencing files, reference files, and alignment files are excluded from version control.
-
-The downstream analysis is organized into separate scripts for the initial wild-type analysis and the full factorial analysis.
-
 ## Tools
 
 FastQC · MultiQC · HISAT2 · SAMtools · featureCounts · R · DESeq2 · ggplot2 · clusterProfiler · Git
 
 ## Data and Attribution Statement
 
-This repository contains an independent computational reanalysis of publicly available sequencing data.
+This is an independent computational reanalysis of public sequencing data. The experimental design, hypotheses, plant material, sample preparation, sequencing and the conclusions of the original publication belong to its authors (Fàbregas et al., 2018). The scripts, statistics, figures and interpretations here come from this reanalysis.
 
-The original experimental design, biological hypotheses, plant material, sample preparation, sequencing, and primary data generation were performed by the authors of the original study. No authorship or ownership of those experimental contributions is claimed here.
-
-The biological conclusions reported in the original publication should likewise be attributed to the original authors.
-
-Unless otherwise stated, scripts, data processing, statistical analyses, visualizations, and interpretations presented in this repository refer specifically to the independent computational reanalysis performed in this project.
-
-This project should therefore be interpreted as a bioinformatics training and reproducibility exercise using an existing public dataset rather than as an independent experimental replication of the original study.
+I did this as a bioinformatics training and reproducibility exercise, not as an experimental replication of the original study.
 
 ## References
 
