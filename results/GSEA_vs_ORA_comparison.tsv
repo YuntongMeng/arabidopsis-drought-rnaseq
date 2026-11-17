@@ -1,0 +1,725 @@
+contrast	ID	Description	category	ORA_direction	ORA_p.adjust	ORA_gene_count	GSEA_direction	GSEA_NES	GSEA_p.adjust	GSEA_setSize
+interaction	GO:1903047	mitotic cell cycle process	GSEA only	NA	NA	NA	positive	2.47272748792212	1.26375296503528e-08	187
+interaction	GO:0051276	chromosome organization	GSEA only	NA	NA	NA	positive	2.47095902651414	1.26375296503528e-08	198
+interaction	GO:0007059	chromosome segregation	GSEA only	NA	NA	NA	positive	2.44459242601665	1.26375296503528e-08	153
+interaction	GO:0000278	mitotic cell cycle	GSEA only	NA	NA	NA	positive	2.41893372632492	1.26375296503528e-08	246
+interaction	GO:0006325	chromatin organization	GSEA only	NA	NA	NA	positive	2.24655503468117	1.26375296503528e-08	304
+interaction	GO:0006338	chromatin remodeling	GSEA only	NA	NA	NA	positive	2.16689782518448	1.26375296503528e-08	287
+interaction	GO:0006974	DNA damage response	GSEA only	NA	NA	NA	positive	2.1550028833992	1.26375296503528e-08	376
+interaction	GO:0006281	DNA repair	GSEA only	NA	NA	NA	positive	2.13469043231921	1.26375296503528e-08	336
+interaction	GO:0022402	cell cycle process	GSEA only	NA	NA	NA	positive	2.13083741534872	1.26375296503528e-08	494
+interaction	GO:0001666	response to hypoxia	GSEA only	NA	NA	NA	positive	2.07453449200314	1.26375296503528e-08	269
+interaction	GO:0036293	response to decreased oxygen levels	GSEA only	NA	NA	NA	positive	2.04769285148012	1.26375296503528e-08	273
+interaction	GO:0010629	negative regulation of gene expression	GSEA only	NA	NA	NA	positive	1.99530684456221	1.26375296503528e-08	377
+interaction	GO:0080134	regulation of response to stress	GSEA only	NA	NA	NA	positive	1.90193488524622	1.26375296503528e-08	462
+interaction	GO:0070482	response to oxygen levels	GSEA only	NA	NA	NA	positive	2.06990615164441	1.26375296503528e-08	274
+interaction	GO:0036294	cellular response to decreased oxygen levels	GSEA only	NA	NA	NA	positive	2.10549062653391	1.69456199204915e-08	241
+interaction	GO:0071453	cellular response to oxygen levels	GSEA only	NA	NA	NA	positive	2.10549062653391	1.69456199204915e-08	241
+interaction	GO:0071456	cellular response to hypoxia	GSEA only	NA	NA	NA	positive	2.11423124021166	1.69456199204915e-08	239
+interaction	GO:0006399	tRNA metabolic process	GSEA only	NA	NA	NA	positive	2.18836812884551	1.85411763614846e-08	178
+interaction	GO:0000280	nuclear division	GSEA only	NA	NA	NA	positive	2.20199332099559	2.29494199849014e-08	176
+interaction	GO:0048285	organelle fission	GSEA only	NA	NA	NA	positive	2.13838583698266	2.31046194350544e-08	213
+interaction	GO:0098813	nuclear chromosome segregation	GSEA only	NA	NA	NA	positive	2.35638578525557	4.49280341376749e-08	106
+interaction	GO:0006401	RNA catabolic process	GSEA only	NA	NA	NA	positive	2.26871753507742	1.65569367951689e-07	131
+interaction	GO:0010608	post-transcriptional regulation of gene expression	GSEA only	NA	NA	NA	positive	2.07469960407949	1.66188387254555e-07	184
+interaction	GO:0042254	ribosome biogenesis	GSEA only	NA	NA	NA	positive	1.8997620270847	2.52028759402898e-07	311
+interaction	GO:0006402	mRNA catabolic process	GSEA only	NA	NA	NA	positive	2.24868046087671	2.85265596469489e-07	108
+interaction	GO:0048193	Golgi vesicle transport	GSEA only	NA	NA	NA	positive	2.07409465813411	3.04628365209708e-07	192
+interaction	GO:0141188	nucleic acid catabolic process	GSEA only	NA	NA	NA	positive	2.16055017684261	3.96442972528784e-07	138
+interaction	GO:0007017	microtubule-based process	GSEA only	NA	NA	NA	positive	2.02531509740952	4.35386506857458e-07	238
+interaction	GO:0140014	mitotic nuclear division	GSEA only	NA	NA	NA	positive	2.3679859833721	4.35386506857458e-07	62
+interaction	GO:0007010	cytoskeleton organization	GSEA only	NA	NA	NA	positive	1.867502083472	1.02981614399197e-06	318
+interaction	GO:0031347	regulation of defense response	GSEA only	NA	NA	NA	positive	1.86737833482517	1.02981614399197e-06	318
+interaction	GO:0022613	ribonucleoprotein complex biogenesis	GSEA only	NA	NA	NA	positive	1.83873236736952	1.40688196889937e-06	385
+interaction	GO:0140546	defense response to symbiont	GSEA only	NA	NA	NA	positive	1.79251256860684	3.1979441638962e-06	353
+interaction	GO:0044770	cell cycle phase transition	GSEA only	NA	NA	NA	positive	2.20079719028421	3.36582625154206e-06	103
+interaction	GO:0002376	immune system process	GSEA only	NA	NA	NA	positive	1.78394570276959	4.37861225198248e-06	344
+interaction	GO:0045087	innate immune response	GSEA only	NA	NA	NA	positive	1.85101274804612	5.52040075260883e-06	281
+interaction	GO:0043039	tRNA aminoacylation	GSEA only	NA	NA	NA	positive	2.27316983466093	5.56846547765619e-06	53
+interaction	GO:0098542	defense response to other organism	GSEA only	NA	NA	NA	positive	1.71442066830591	5.56846547765619e-06	439
+interaction	GO:0000819	sister chromatid segregation	GSEA only	NA	NA	NA	positive	2.31070932198746	6.45514556619189e-06	60
+interaction	GO:0033043	regulation of organelle organization	GSEA only	NA	NA	NA	positive	2.04302593498162	6.70321431316718e-06	138
+interaction	GO:0043038	amino acid activation	GSEA only	NA	NA	NA	positive	2.30632457646883	6.70321431316718e-06	54
+interaction	GO:0009611	response to wounding	GSEA only	NA	NA	NA	positive	1.88305916442146	6.91756854400866e-06	257
+interaction	GO:0009408	response to heat	GSEA only	NA	NA	NA	positive	1.83800820453299	7.17770822909591e-06	287
+interaction	GO:0006955	immune response	GSEA only	NA	NA	NA	positive	1.7842091510532	8.39505391549885e-06	340
+interaction	GO:0016441	post-transcriptional gene silencing	GSEA only	NA	NA	NA	positive	2.29952852373494	8.75343212125169e-06	56
+interaction	GO:0031047	regulatory ncRNA-mediated gene silencing	GSEA only	NA	NA	NA	positive	2.01843994673206	8.89606286784923e-06	138
+interaction	GO:0044772	mitotic cell cycle phase transition	GSEA only	NA	NA	NA	positive	2.23863463494804	1.03307395979037e-05	83
+interaction	GO:0050832	defense response to fungus	GSEA only	NA	NA	NA	positive	1.83722482564925	1.16484482405771e-05	263
+interaction	GO:0040029	epigenetic regulation of gene expression	GSEA only	NA	NA	NA	positive	1.95139910028708	1.17970924642211e-05	201
+interaction	GO:0000911	cytokinesis by cell plate formation	GSEA only	NA	NA	NA	positive	2.2398518387469	1.42648878236277e-05	67
+interaction	GO:0048229	gametophyte development	GSEA only	NA	NA	NA	positive	1.65401912535071	1.68017445598984e-05	454
+interaction	GO:0006418	tRNA aminoacylation for protein translation	GSEA only	NA	NA	NA	positive	2.33306776290795	1.95836225212952e-05	50
+interaction	GO:0005984	disaccharide metabolic process	GSEA only	NA	NA	NA	positive	2.25419660369371	1.99561622210198e-05	56
+interaction	GO:0009311	oligosaccharide metabolic process	GSEA only	NA	NA	NA	positive	2.20506493086295	2.55071028934998e-05	64
+interaction	GO:0006302	double-strand break repair	GSEA only	NA	NA	NA	positive	1.96715457278746	2.87400432644158e-05	134
+interaction	GO:0016072	rRNA metabolic process	GSEA only	NA	NA	NA	positive	1.82541979699688	2.87400432644158e-05	247
+interaction	GO:0000956	nuclear-transcribed mRNA catabolic process	GSEA only	NA	NA	NA	positive	2.19938662693821	3.258424252143e-05	59
+interaction	GO:0000070	mitotic sister chromatid segregation	GSEA only	NA	NA	NA	positive	2.25226500012797	3.27419810087327e-05	49
+interaction	GO:0009753	response to jasmonic acid	GSEA only	NA	NA	NA	positive	1.82988595382592	3.27419810087327e-05	217
+interaction	GO:0015031	protein transport	GSEA only	NA	NA	NA	positive	1.69365068143599	3.27419810087327e-05	412
+interaction	GO:0033365	protein localization to organelle	GSEA only	NA	NA	NA	positive	1.76702760330822	3.61252188919138e-05	279
+interaction	GO:0006892	post-Golgi vesicle-mediated transport	GSEA only	NA	NA	NA	positive	2.20619661612872	4.14552095286205e-05	56
+interaction	GO:0051170	import into nucleus	GSEA only	NA	NA	NA	positive	2.14161347224581	5.19797289929645e-05	53
+interaction	GO:0000226	microtubule cytoskeleton organization	GSEA only	NA	NA	NA	positive	1.83168799386523	5.56728072224924e-05	198
+interaction	GO:0006366	transcription by RNA polymerase II	GSEA only	NA	NA	NA	positive	1.60929334437777	5.86158793544189e-05	478
+interaction	GO:0070542	response to fatty acid	GSEA only	NA	NA	NA	positive	1.78080607408478	6.0682876266011e-05	221
+interaction	GO:0042775	mitochondrial ATP synthesis coupled electron transport	GSEA only	NA	NA	NA	negative	-2.2166871589534	6.68693982330776e-05	41
+interaction	GO:0009451	RNA modification	GSEA only	NA	NA	NA	positive	1.6744025303331	6.68706252438601e-05	347
+interaction	GO:0007018	microtubule-based movement	GSEA only	NA	NA	NA	positive	2.23864767132769	9.05923228534245e-05	36
+interaction	GO:0009555	pollen development	GSEA only	NA	NA	NA	positive	1.66083288339281	0.000116277372270827	343
+interaction	GO:0051169	nuclear transport	GSEA only	NA	NA	NA	positive	1.99797523005802	0.000117282890063775	111
+interaction	GO:0051301	cell division	GSEA only	NA	NA	NA	positive	1.69253372446771	0.000121845370864395	267
+interaction	GO:0006364	rRNA processing	GSEA only	NA	NA	NA	positive	1.7964488446237	0.000124479286129256	227
+interaction	GO:0000910	cytokinesis	GSEA only	NA	NA	NA	positive	1.97631430911131	0.000127142017377866	105
+interaction	GO:0051321	meiotic cell cycle	GSEA only	NA	NA	NA	positive	1.81638972578078	0.000150569171676228	181
+interaction	GO:0006913	nucleocytoplasmic transport	GSEA only	NA	NA	NA	positive	1.97191397849305	0.000150569171676228	110
+interaction	GO:0007051	spindle organization	GSEA only	NA	NA	NA	positive	2.11175348464903	0.000150569171676228	64
+interaction	GO:0006606	protein import into nucleus	GSEA only	NA	NA	NA	positive	2.20076098009252	0.000154099938344573	50
+interaction	GO:0006310	DNA recombination	GSEA only	NA	NA	NA	positive	1.76294487919644	0.000203806211800876	184
+interaction	GO:0006357	regulation of transcription by RNA polymerase II	GSEA only	NA	NA	NA	positive	1.60090829036685	0.000207981477430799	389
+interaction	GO:0034655	nucleobase-containing compound catabolic process	GSEA only	NA	NA	NA	positive	1.73909656224742	0.000211445934690242	213
+interaction	GO:0022904	respiratory electron transport chain	GSEA only	NA	NA	NA	negative	-2.12239682226359	0.000220835093242854	49
+interaction	GO:0042742	defense response to bacterium	GSEA only	NA	NA	NA	positive	1.57197380608104	0.00023682277288102	445
+interaction	GO:0051225	spindle assembly	GSEA only	NA	NA	NA	positive	2.11306928029543	0.000255942889626243	45
+interaction	GO:0019646	aerobic electron transport chain	GSEA only	NA	NA	NA	negative	-2.21788633435539	0.000294786351024688	40
+interaction	GO:0042773	ATP synthesis coupled electron transport	GSEA only	NA	NA	NA	negative	-2.10362095739345	0.000299022016074784	44
+interaction	GO:0080135	regulation of cellular response to stress	GSEA only	NA	NA	NA	positive	1.92391603438023	0.000302731668869841	104
+interaction	GO:0010268	brassinosteroid homeostasis	GSEA only	NA	NA	NA	negative	-2.23363528903688	0.000302988586106554	23
+interaction	GO:0071395	cellular response to jasmonic acid stimulus	GSEA only	NA	NA	NA	positive	1.92322931327738	0.000354817639162312	107
+interaction	GO:1901987	regulation of cell cycle phase transition	GSEA only	NA	NA	NA	positive	2.02944425999204	0.000362395712180377	69
+interaction	GO:0006119	oxidative phosphorylation	GSEA only	NA	NA	NA	negative	-2.07241886639846	0.000376861370187783	51
+interaction	GO:0051128	regulation of cellular component organization	GSEA only	NA	NA	NA	positive	1.66439942861167	0.00037689757261552	259
+interaction	GO:2000022	regulation of jasmonic acid mediated signaling pathway	GSEA only	NA	NA	NA	positive	2.05110919732202	0.00037689757261552	42
+interaction	GO:0009867	jasmonic acid mediated signaling pathway	GSEA only	NA	NA	NA	positive	1.92541909552727	0.000388638288006151	103
+interaction	GO:0042545	cell wall modification	GSEA only	NA	NA	NA	negative	-1.79503229409502	0.000416522332881072	168
+interaction	GO:0033044	regulation of chromosome organization	GSEA only	NA	NA	NA	positive	2.06158267051437	0.00048816392715162	37
+interaction	GO:0045814	negative regulation of gene expression, epigenetic	GSEA only	NA	NA	NA	positive	1.85934374149924	0.000552222764603227	141
+interaction	GO:1902850	microtubule cytoskeleton organization involved in mitosis	GSEA only	NA	NA	NA	positive	2.11276201555982	0.000572084891073427	31
+interaction	GO:0009933	meristem structural organization	GSEA only	NA	NA	NA	positive	1.97487656188889	0.000643512246744144	69
+interaction	GO:0140013	meiotic nuclear division	GSEA only	NA	NA	NA	positive	1.85308921745433	0.000654784016024217	118
+interaction	GO:0006886	intracellular protein transport	GSEA only	NA	NA	NA	positive	1.62781318587453	0.000735810599950174	295
+interaction	GO:0051726	regulation of cell cycle	GSEA only	NA	NA	NA	positive	1.72513474806597	0.000787925386959849	181
+interaction	GO:0007062	sister chromatid cohesion	GSEA only	NA	NA	NA	positive	2.06014537173632	0.000787925386959849	51
+interaction	GO:0051168	nuclear export	GSEA only	NA	NA	NA	positive	1.98987949241589	0.000855413981577022	65
+interaction	GO:0045944	positive regulation of transcription by RNA polymerase II	GSEA only	NA	NA	NA	positive	1.90055740575663	0.000855413981577022	77
+interaction	GO:0006400	tRNA modification	GSEA only	NA	NA	NA	positive	1.93363133893036	0.000894061894097552	75
+interaction	GO:0015979	photosynthesis	GSEA only	NA	NA	NA	positive	1.62898517381435	0.000915805593095986	211
+interaction	GO:0031048	regulatory ncRNA-mediated heterochromatin formation	GSEA only	NA	NA	NA	positive	2.04961620068183	0.000928766307055729	48
+interaction	GO:0009620	response to fungus	GSEA only	NA	NA	NA	positive	1.53810247499405	0.000933761158687369	370
+interaction	GO:0071555	cell wall organization	GSEA only	NA	NA	NA	negative	-1.59952791839948	0.000958385952381023	291
+interaction	GO:0035194	regulatory ncRNA-mediated post-transcriptional gene silencing	GSEA only	NA	NA	NA	positive	2.08100009274816	0.000958385952381023	36
+interaction	GO:0002831	regulation of response to biotic stimulus	GSEA only	NA	NA	NA	positive	1.64730990981038	0.000968315311533661	244
+interaction	GO:0032101	regulation of response to external stimulus	GSEA only	NA	NA	NA	positive	1.64730990981038	0.000968315311533661	244
+interaction	GO:1903046	meiotic cell cycle process	GSEA only	NA	NA	NA	positive	1.76051909434991	0.000981518726213221	166
+interaction	GO:0000122	negative regulation of transcription by RNA polymerase II	GSEA only	NA	NA	NA	positive	2.10247520785211	0.00100959394356055	34
+interaction	GO:0071398	cellular response to fatty acid	GSEA only	NA	NA	NA	positive	1.86227681741855	0.00101858350359404	111
+interaction	GO:0010256	endomembrane system organization	GSEA only	NA	NA	NA	positive	1.76155399836615	0.00123612785893444	121
+interaction	GO:0006893	Golgi to plasma membrane transport	GSEA only	NA	NA	NA	positive	2.09333731509444	0.00124645979854212	23
+interaction	GO:0007052	mitotic spindle organization	GSEA only	NA	NA	NA	positive	2.08772559457857	0.00144639541721767	28
+interaction	GO:0000082	G1/S transition of mitotic cell cycle	GSEA only	NA	NA	NA	positive	2.03551266164552	0.00167764613991582	36
+interaction	GO:0043487	regulation of RNA stability	GSEA only	NA	NA	NA	positive	1.94933093896245	0.0016847953145932	57
+interaction	GO:0051640	organelle localization	GSEA only	NA	NA	NA	positive	1.76185361497131	0.00184173583324793	142
+interaction	GO:0042445	hormone metabolic process	GSEA only	NA	NA	NA	negative	-1.74305012529287	0.00188016542371451	135
+interaction	GO:0008033	tRNA processing	GSEA only	NA	NA	NA	positive	1.82978975801853	0.00191566872125634	99
+interaction	GO:0010557	positive regulation of macromolecule biosynthetic process	GSEA only	NA	NA	NA	positive	1.47435615844699	0.00191566872125634	433
+interaction	GO:0061013	regulation of mRNA catabolic process	GSEA only	NA	NA	NA	positive	1.91730695957237	0.00193743230718212	58
+interaction	GO:0009834	plant-type secondary cell wall biogenesis	GSEA only	NA	NA	NA	negative	-1.78997285042003	0.00194324336102544	103
+interaction	GO:1901990	regulation of mitotic cell cycle phase transition	GSEA only	NA	NA	NA	positive	2.00833053993589	0.00194324336102544	50
+interaction	GO:0072594	establishment of protein localization to organelle	GSEA only	NA	NA	NA	positive	1.56934910337623	0.00194324336102544	276
+interaction	GO:0045229	external encapsulating structure organization	GSEA only	NA	NA	NA	negative	-1.54435915673162	0.00195132461354118	337
+interaction	GO:0000724	double-strand break repair via homologous recombination	GSEA only	NA	NA	NA	positive	1.83368931618035	0.00208536778813797	90
+interaction	GO:0009658	chloroplast organization	GSEA only	NA	NA	NA	positive	1.60985280192146	0.00209371002745299	233
+interaction	GO:0034504	protein localization to nucleus	GSEA only	NA	NA	NA	positive	1.88619793222792	0.00213330608903907	61
+interaction	GO:0031123	RNA 3'-end processing	GSEA only	NA	NA	NA	positive	1.93300223001527	0.00219348310296389	66
+interaction	GO:0071025	RNA surveillance	GSEA only	NA	NA	NA	positive	2.05631468473678	0.00221630193731743	16
+interaction	GO:0071027	nuclear RNA surveillance	GSEA only	NA	NA	NA	positive	2.05631468473678	0.00221630193731743	16
+interaction	GO:0070646	protein modification by small protein removal	GSEA only	NA	NA	NA	positive	1.94259709408826	0.00222417941658807	41
+interaction	GO:0006790	sulfur compound metabolic process	GSEA only	NA	NA	NA	negative	-1.51011238560794	0.00223358753412523	357
+interaction	GO:0009891	positive regulation of biosynthetic process	GSEA only	NA	NA	NA	positive	1.44301253748103	0.00251833141335528	488
+interaction	GO:0098876	vesicle-mediated transport to the plasma membrane	GSEA only	NA	NA	NA	positive	1.92567124231199	0.00254325853001572	37
+interaction	GO:0000725	recombinational repair	GSEA only	NA	NA	NA	positive	1.77099101465065	0.00259513603506043	96
+interaction	GO:0019684	photosynthesis, light reaction	GSEA only	NA	NA	NA	positive	1.68624807415143	0.00275268920157505	154
+interaction	GO:0009627	systemic acquired resistance	GSEA only	NA	NA	NA	positive	1.81995592299302	0.0028744433756139	82
+interaction	GO:0031349	positive regulation of defense response	GSEA only	NA	NA	NA	positive	1.70921089035157	0.00328241486363667	119
+interaction	GO:0043488	regulation of mRNA stability	GSEA only	NA	NA	NA	positive	1.88508479524771	0.00346422217589888	54
+interaction	GO:0071214	cellular response to abiotic stimulus	GSEA only	NA	NA	NA	positive	1.5559690618999	0.00346422217589888	223
+interaction	GO:0104004	cellular response to environmental stimulus	GSEA only	NA	NA	NA	positive	1.5559690618999	0.00346422217589888	223
+interaction	GO:0045088	regulation of innate immune response	GSEA only	NA	NA	NA	positive	1.67755628606586	0.00354702522619338	129
+interaction	GO:0010564	regulation of cell cycle process	GSEA only	NA	NA	NA	positive	1.67716771990758	0.00386616205331717	134
+interaction	GO:0009765	photosynthesis, light harvesting	GSEA only	NA	NA	NA	positive	1.93999053918305	0.00408991373718489	40
+interaction	GO:0080188	gene silencing by siRNA-directed DNA methylation	GSEA only	NA	NA	NA	positive	1.93906775714387	0.00408991373718489	40
+interaction	GO:0141194	siRNA-mediated heterochromatin formation	GSEA only	NA	NA	NA	positive	1.93906775714387	0.00408991373718489	40
+interaction	GO:0006897	endocytosis	GSEA only	NA	NA	NA	positive	1.82785118731046	0.00413655115941087	83
+interaction	GO:0045132	meiotic chromosome segregation	GSEA only	NA	NA	NA	positive	1.93283472388058	0.00440114234084694	51
+interaction	GO:0030488	tRNA methylation	GSEA only	NA	NA	NA	positive	2.00337853999857	0.00462637681854961	26
+interaction	GO:0061024	membrane organization	GSEA only	NA	NA	NA	positive	1.55402983429029	0.0046891875190488	257
+interaction	GO:0006650	glycerophospholipid metabolic process	GSEA only	NA	NA	NA	positive	1.74188685617187	0.00485914958637208	111
+interaction	GO:0006891	intra-Golgi vesicle-mediated transport	GSEA only	NA	NA	NA	positive	1.94333806572312	0.00507322079374531	36
+interaction	GO:0046486	glycerolipid metabolic process	GSEA only	NA	NA	NA	positive	1.66583089929056	0.0051860584376974	149
+interaction	GO:0061640	cytoskeleton-dependent cytokinesis	GSEA only	NA	NA	NA	positive	1.90581533409652	0.00546154276126027	51
+interaction	GO:0016579	protein deubiquitination	GSEA only	NA	NA	NA	positive	1.962738293498	0.00565191287698468	23
+interaction	GO:0097035	regulation of membrane lipid distribution	GSEA only	NA	NA	NA	positive	1.9958449011369	0.00565191287698468	20
+interaction	GO:0051235	maintenance of location	GSEA only	NA	NA	NA	positive	1.93281914998694	0.00568805235110501	35
+interaction	GO:0051651	maintenance of location in cell	GSEA only	NA	NA	NA	positive	1.93281914998694	0.00568805235110501	35
+interaction	GO:0060147	regulation of post-transcriptional gene silencing	GSEA only	NA	NA	NA	positive	1.95717820913947	0.00587529217354932	15
+interaction	GO:0010015	root morphogenesis	GSEA only	NA	NA	NA	negative	-1.44633911222958	0.00591193298413801	344
+interaction	GO:0033108	mitochondrial respiratory chain complex assembly	GSEA only	NA	NA	NA	negative	-1.91286015977968	0.00642563316918537	45
+interaction	GO:0009626	plant-type hypersensitive response	GSEA only	NA	NA	NA	positive	1.70462473827712	0.00642563316918537	106
+interaction	GO:0051656	establishment of organelle localization	GSEA only	NA	NA	NA	positive	1.8378519972906	0.00642765975660206	66
+interaction	GO:0034050	symbiont-induced defense-related programmed cell death	GSEA only	NA	NA	NA	positive	1.68642273612855	0.00695883952739814	107
+interaction	GO:0005991	trehalose metabolic process	GSEA only	NA	NA	NA	positive	1.94957984224359	0.00728199593121666	21
+interaction	GO:0045089	positive regulation of innate immune response	GSEA only	NA	NA	NA	positive	1.76791721409355	0.00764836679489781	69
+interaction	GO:0002682	regulation of immune system process	GSEA only	NA	NA	NA	positive	1.67378410969406	0.00789522100193911	141
+interaction	GO:0050776	regulation of immune response	GSEA only	NA	NA	NA	positive	1.67378410969406	0.00789522100193911	141
+interaction	GO:0051445	regulation of meiotic cell cycle	GSEA only	NA	NA	NA	positive	1.95291699734321	0.00798227991029221	17
+interaction	GO:0048507	meristem development	GSEA only	NA	NA	NA	positive	1.45548878270224	0.00799029114693297	308
+interaction	GO:0031507	heterochromatin formation	GSEA only	NA	NA	NA	positive	1.67639361921559	0.00824232894872733	95
+interaction	GO:0016129	phytosteroid biosynthetic process	GSEA only	NA	NA	NA	negative	-1.98228778029251	0.00836997503126939	27
+interaction	GO:0016132	brassinosteroid biosynthetic process	GSEA only	NA	NA	NA	negative	-1.98228778029251	0.00836997503126939	27
+interaction	GO:0016131	brassinosteroid metabolic process	GSEA only	NA	NA	NA	negative	-1.93541788089325	0.00839275577375185	32
+interaction	GO:1901988	negative regulation of cell cycle phase transition	GSEA only	NA	NA	NA	positive	1.87566741387098	0.00841732621359567	44
+interaction	GO:0014074	response to purine-containing compound	GSEA only	NA	NA	NA	positive	1.94894904155265	0.00862792109037545	18
+interaction	GO:0050684	regulation of mRNA processing	GSEA only	NA	NA	NA	negative	-1.81773276446433	0.00891102078603892	53
+interaction	GO:1901698	response to nitrogen compound	GSEA only	NA	NA	NA	positive	1.55378503080085	0.00891102078603892	187
+interaction	GO:0072598	protein localization to chloroplast	GSEA only	NA	NA	NA	positive	1.74980686279548	0.00902724975237981	53
+interaction	GO:0009966	regulation of signal transduction	GSEA only	NA	NA	NA	positive	1.42215647631947	0.00902724975237981	376
+interaction	GO:0046488	phosphatidylinositol metabolic process	GSEA only	NA	NA	NA	positive	1.73251526827939	0.00950180681322897	73
+interaction	GO:0009313	oligosaccharide catabolic process	GSEA only	NA	NA	NA	positive	1.93401228307421	0.00950180681322897	17
+interaction	GO:0051783	regulation of nuclear division	GSEA only	NA	NA	NA	positive	1.83709414858705	0.00965384982008412	31
+interaction	GO:0044843	cell cycle G1/S phase transition	GSEA only	NA	NA	NA	positive	1.85314395480551	0.00966672229363621	39
+interaction	GO:0048024	regulation of mRNA splicing, via spliceosome	GSEA only	NA	NA	NA	negative	-1.82779164563773	0.0102808433938417	46
+interaction	GO:0016145	S-glycoside catabolic process	GSEA only	NA	NA	NA	positive	1.88751871029656	0.0103830660000881	28
+interaction	GO:0019762	glucosinolate catabolic process	GSEA only	NA	NA	NA	positive	1.88751871029656	0.0103830660000881	28
+interaction	GO:0015914	phospholipid transport	GSEA only	NA	NA	NA	positive	1.93380016723298	0.0111867771469344	20
+interaction	GO:0070918	regulatory ncRNA processing	GSEA only	NA	NA	NA	positive	1.73833392421451	0.0113181948453963	61
+interaction	GO:0061014	positive regulation of mRNA catabolic process	GSEA only	NA	NA	NA	positive	1.79367295199724	0.0113333685625494	45
+interaction	GO:0009553	embryo sac development	GSEA only	NA	NA	NA	positive	1.58115630507054	0.0113903266492617	150
+interaction	GO:0065008	regulation of biological quality	GSEA only	NA	NA	NA	positive	1.36596648465734	0.0118004620046465	482
+interaction	GO:0006413	translational initiation	GSEA only	NA	NA	NA	positive	1.6923682141902	0.0122197707597493	74
+interaction	GO:0072596	establishment of protein localization to chloroplast	GSEA only	NA	NA	NA	positive	1.74375234502113	0.0122197707597493	64
+interaction	GO:0010411	xyloglucan metabolic process	GSEA only	NA	NA	NA	negative	-1.78737132095909	0.0122717669810257	58
+interaction	GO:0010646	regulation of cell communication	GSEA only	NA	NA	NA	positive	1.38910629044847	0.0127768313500842	380
+interaction	GO:0009853	photorespiration	GSEA only	NA	NA	NA	negative	-1.85264886022255	0.0127768313500842	42
+interaction	GO:0007346	regulation of mitotic cell cycle	GSEA only	NA	NA	NA	positive	1.70273723734053	0.0127768313500842	69
+interaction	GO:0000075	cell cycle checkpoint signaling	GSEA only	NA	NA	NA	positive	1.80925982176359	0.0127776471188227	43
+interaction	GO:0140694	membraneless organelle assembly	GSEA only	NA	NA	NA	positive	1.63708981895125	0.013657308436144	110
+interaction	GO:0002684	positive regulation of immune system process	GSEA only	NA	NA	NA	positive	1.71908796431051	0.0146422619843371	71
+interaction	GO:0050778	positive regulation of immune response	GSEA only	NA	NA	NA	positive	1.71908796431051	0.0146422619843371	71
+interaction	GO:0051254	positive regulation of RNA metabolic process	GSEA only	NA	NA	NA	positive	1.36314625789036	0.0146658347488226	403
+interaction	GO:0009657	plastid organization	GSEA only	NA	NA	NA	positive	1.44078100982494	0.0148897280454753	306
+interaction	GO:0010948	negative regulation of cell cycle process	GSEA only	NA	NA	NA	positive	1.72370338394673	0.0149252329963598	56
+interaction	GO:1902369	negative regulation of RNA catabolic process	GSEA only	NA	NA	NA	positive	1.89513911002737	0.0154835238694207	18
+interaction	GO:0010053	root epidermal cell differentiation	GSEA only	NA	NA	NA	negative	-1.55589567884238	0.015601507239201	159
+interaction	GO:0046351	disaccharide biosynthetic process	GSEA only	NA	NA	NA	positive	1.86349894033693	0.0156280505907321	26
+interaction	GO:0023051	regulation of signaling	GSEA only	NA	NA	NA	positive	1.39512426307494	0.0159481894766799	379
+interaction	GO:0009751	response to salicylic acid	GSEA only	NA	NA	NA	positive	1.4825082415994	0.0161409030649051	189
+interaction	GO:0010628	positive regulation of gene expression	GSEA only	NA	NA	NA	positive	1.73284702890104	0.0161409030649051	85
+interaction	GO:0010054	trichoblast differentiation	GSEA only	NA	NA	NA	negative	-1.57274518555717	0.0162928959499178	143
+interaction	GO:0006888	endoplasmic reticulum to Golgi vesicle-mediated transport	GSEA only	NA	NA	NA	positive	1.60387798484864	0.0162928959499178	93
+interaction	GO:0005992	trehalose biosynthetic process	GSEA only	NA	NA	NA	positive	1.90352148679114	0.0162928959499178	19
+interaction	GO:0007276	gamete generation	GSEA only	NA	NA	NA	positive	1.67763981348176	0.0164395703899343	70
+interaction	GO:0009768	photosynthesis, light harvesting in photosystem I	GSEA only	NA	NA	NA	positive	1.86903637863306	0.0165845464946109	22
+interaction	GO:0006282	regulation of DNA repair	GSEA only	NA	NA	NA	positive	1.84460548533224	0.0174722294923984	26
+interaction	GO:0016071	mRNA metabolic process	GSEA only	NA	NA	NA	positive	1.33900586898286	0.0174805033600168	486
+interaction	GO:0001510	RNA methylation	GSEA only	NA	NA	NA	positive	1.64579569593675	0.0178658403213917	62
+interaction	GO:0031109	microtubule polymerization or depolymerization	GSEA only	NA	NA	NA	positive	1.80588312900875	0.0178658403213917	38
+interaction	GO:0045492	xylan biosynthetic process	GSEA only	NA	NA	NA	negative	-1.76068234162122	0.0178658403213917	43
+interaction	GO:0010305	leaf vascular tissue pattern formation	GSEA only	NA	NA	NA	positive	1.76538875296273	0.0179692209302347	31
+interaction	GO:0005985	sucrose metabolic process	GSEA only	NA	NA	NA	positive	1.81139558138257	0.0180598370861206	30
+interaction	GO:0006298	mismatch repair	GSEA only	NA	NA	NA	positive	1.8907896023348	0.0183290935195491	19
+interaction	GO:0046474	glycerophospholipid biosynthetic process	GSEA only	NA	NA	NA	positive	1.65725296920956	0.0186715017058156	75
+interaction	GO:0043414	macromolecule methylation	GSEA only	NA	NA	NA	positive	1.63224332576592	0.0201907657323053	74
+interaction	GO:1902531	regulation of intracellular signal transduction	GSEA only	NA	NA	NA	positive	1.59225778767049	0.0202910108103702	94
+interaction	GO:0051130	positive regulation of cellular component organization	GSEA only	NA	NA	NA	positive	1.74313418763369	0.0208009478706418	46
+interaction	GO:0140719	constitutive heterochromatin formation	GSEA only	NA	NA	NA	positive	1.65294025793241	0.0212402589843098	53
+interaction	GO:0007140	male meiotic nuclear division	GSEA only	NA	NA	NA	positive	1.81414946559693	0.021240273985046	27
+interaction	GO:0097435	supramolecular fiber organization	GSEA only	NA	NA	NA	positive	1.49879891044055	0.021240273985046	168
+interaction	GO:0034605	cellular response to heat	GSEA only	NA	NA	NA	positive	1.58381196319446	0.0213757801551321	91
+interaction	GO:0009875	pollen-pistil interaction	GSEA only	NA	NA	NA	positive	1.78905116243253	0.0214105451919506	28
+interaction	GO:0007264	small GTPase-mediated signal transduction	GSEA only	NA	NA	NA	positive	1.858917684953	0.0214105451919506	17
+interaction	GO:0034204	lipid translocation	GSEA only	NA	NA	NA	positive	1.84219488160072	0.0214105451919506	16
+interaction	GO:0098657	import into cell	GSEA only	NA	NA	NA	positive	1.54660560942116	0.0214105451919506	120
+interaction	GO:0009934	regulation of meristem structural organization	GSEA only	NA	NA	NA	positive	1.82531171456341	0.0215536073428085	21
+interaction	GO:0016074	sno(s)RNA metabolic process	GSEA only	NA	NA	NA	positive	1.85187084504231	0.0215536073428085	18
+interaction	GO:0043144	sno(s)RNA processing	GSEA only	NA	NA	NA	positive	1.85187084504231	0.0215536073428085	18
+interaction	GO:0071669	plant-type cell wall organization or biogenesis	GSEA only	NA	NA	NA	negative	-1.38599539093981	0.0215536073428085	349
+interaction	GO:0031348	negative regulation of defense response	GSEA only	NA	NA	NA	positive	1.62529094703917	0.0215536073428085	77
+interaction	GO:0048584	positive regulation of response to stimulus	GSEA only	NA	NA	NA	positive	1.40759728648926	0.0215536073428085	283
+interaction	GO:0043484	regulation of RNA splicing	GSEA only	NA	NA	NA	negative	-1.70371942567349	0.0216464737549912	58
+interaction	GO:0072657	protein localization to membrane	GSEA only	NA	NA	NA	positive	1.74853305408012	0.0217442061144557	51
+interaction	GO:0006346	DNA methylation-dependent constitutive heterochromatin formation	GSEA only	NA	NA	NA	positive	1.76696107755603	0.022628556077792	50
+interaction	GO:0009636	response to toxic substance	GSEA only	NA	NA	NA	negative	-1.46823017306669	0.0230712137230086	183
+interaction	GO:0010286	heat acclimation	GSEA only	NA	NA	NA	positive	1.60788970372658	0.023143089531241	62
+interaction	GO:0044036	cell wall macromolecule metabolic process	GSEA only	NA	NA	NA	negative	-1.57331549853375	0.0231580023599097	122
+interaction	GO:0010363	regulation of plant-type hypersensitive response	GSEA only	NA	NA	NA	positive	1.72999080193419	0.0234759140946606	31
+interaction	GO:0070592	cell wall polysaccharide biosynthetic process	GSEA only	NA	NA	NA	negative	-1.62373036495567	0.0234759140946606	84
+interaction	GO:0050779	RNA destabilization	GSEA only	NA	NA	NA	positive	1.67921190927791	0.0234759140946606	42
+interaction	GO:0061157	mRNA destabilization	GSEA only	NA	NA	NA	positive	1.67921190927791	0.0234759140946606	42
+interaction	GO:0046352	disaccharide catabolic process	GSEA only	NA	NA	NA	positive	1.82647376466089	0.0236858989324584	16
+interaction	GO:0048469	cell maturation	GSEA only	NA	NA	NA	negative	-1.54835577862113	0.0255489574703752	137
+interaction	GO:0048764	trichoblast maturation	GSEA only	NA	NA	NA	negative	-1.54835577862113	0.0255489574703752	137
+interaction	GO:0048765	root hair cell differentiation	GSEA only	NA	NA	NA	negative	-1.54835577862113	0.0255489574703752	137
+interaction	GO:0016109	tetraterpenoid biosynthetic process	GSEA only	NA	NA	NA	positive	1.78183171439904	0.0260830355765171	26
+interaction	GO:0016117	carotenoid biosynthetic process	GSEA only	NA	NA	NA	positive	1.78183171439904	0.0260830355765171	26
+interaction	GO:0071333	cellular response to glucose stimulus	GSEA only	NA	NA	NA	positive	1.81536552950662	0.0260830355765171	18
+interaction	GO:0002833	positive regulation of response to biotic stimulus	GSEA only	NA	NA	NA	positive	1.56959283631406	0.0260830355765171	110
+interaction	GO:0032103	positive regulation of response to external stimulus	GSEA only	NA	NA	NA	positive	1.56959283631406	0.0260830355765171	110
+interaction	GO:0009312	oligosaccharide biosynthetic process	GSEA only	NA	NA	NA	positive	1.71208768353606	0.0260830355765171	31
+interaction	GO:0048532	anatomical structure arrangement	GSEA only	NA	NA	NA	positive	1.60050210635728	0.0260894581616105	81
+interaction	GO:0009612	response to mechanical stimulus	GSEA only	NA	NA	NA	positive	1.76173251908202	0.026791626786057	28
+interaction	GO:0009644	response to high light intensity	GSEA only	NA	NA	NA	positive	1.6878459898966	0.0286919466643663	66
+interaction	GO:0003008	system process	GSEA only	NA	NA	NA	positive	1.79614688129868	0.0289970371849441	21
+interaction	GO:0003013	circulatory system process	GSEA only	NA	NA	NA	positive	1.79614688129868	0.0289970371849441	21
+interaction	GO:0003018	vascular process in circulatory system	GSEA only	NA	NA	NA	positive	1.79614688129868	0.0289970371849441	21
+interaction	GO:0010232	vascular transport	GSEA only	NA	NA	NA	positive	1.79614688129868	0.0289970371849441	21
+interaction	GO:0010233	phloem transport	GSEA only	NA	NA	NA	positive	1.79614688129868	0.0289970371849441	21
+interaction	GO:0071470	cellular response to osmotic stress	GSEA only	NA	NA	NA	positive	1.61206686761012	0.0289970371849441	73
+interaction	GO:0010051	xylem and phloem pattern formation	GSEA only	NA	NA	NA	positive	1.63714570752458	0.0291525292964654	68
+interaction	GO:0000460	maturation of 5.8S rRNA	GSEA only	NA	NA	NA	positive	1.74564085360238	0.029746115765194	32
+interaction	GO:0048585	negative regulation of response to stimulus	GSEA only	NA	NA	NA	positive	1.42842020913781	0.0299694241320315	241
+interaction	GO:0000723	telomere maintenance	GSEA only	NA	NA	NA	positive	1.76205204655297	0.0300045258620802	29
+interaction	GO:0032200	telomere organization	GSEA only	NA	NA	NA	positive	1.76205204655297	0.0300045258620802	29
+interaction	GO:0071695	anatomical structure maturation	GSEA only	NA	NA	NA	negative	-1.5276279139786	0.0305720783637243	138
+interaction	GO:0009894	regulation of catabolic process	GSEA only	NA	NA	NA	positive	1.53496718750701	0.0305720783637243	140
+interaction	GO:0051983	regulation of chromosome segregation	GSEA only	NA	NA	NA	positive	1.78630649958867	0.0305720783637243	25
+interaction	GO:0006260	DNA replication	GSEA only	NA	NA	NA	positive	1.4769754143346	0.0307698501758275	160
+interaction	GO:0070192	chromosome organization involved in meiotic cell cycle	GSEA only	NA	NA	NA	positive	1.69885707134689	0.0307698501758275	47
+interaction	GO:2000024	regulation of leaf development	GSEA only	NA	NA	NA	positive	1.8093120484623	0.0307698501758275	17
+interaction	GO:0009895	negative regulation of catabolic process	GSEA only	NA	NA	NA	positive	1.73187270254472	0.0313211210472803	30
+interaction	GO:0010262	somatic embryogenesis	GSEA only	NA	NA	NA	negative	-1.83370221446582	0.0313211210472803	20
+interaction	GO:0045786	negative regulation of cell cycle	GSEA only	NA	NA	NA	positive	1.62279316015266	0.0313211210472803	58
+interaction	GO:0032507	maintenance of protein location in cell	GSEA only	NA	NA	NA	positive	1.77489517699682	0.0313211210472803	22
+interaction	GO:0045185	maintenance of protein location	GSEA only	NA	NA	NA	positive	1.77489517699682	0.0313211210472803	22
+interaction	GO:0007020	microtubule nucleation	GSEA only	NA	NA	NA	positive	1.79000334356295	0.0313211210472803	15
+interaction	GO:0046683	response to organophosphorus	GSEA only	NA	NA	NA	positive	1.80120393499991	0.0314661821190763	17
+interaction	GO:0006979	response to oxidative stress	GSEA only	NA	NA	NA	positive	1.33274200946468	0.0314661821190763	412
+interaction	GO:0010200	response to chitin	GSEA only	NA	NA	NA	positive	1.77359327700345	0.0314661821190763	22
+interaction	GO:0000462	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	GSEA only	NA	NA	NA	positive	1.67635094495989	0.0316865125945298	31
+interaction	GO:0042274	ribosomal small subunit biogenesis	GSEA only	NA	NA	NA	positive	1.59995735435212	0.0316865125945298	78
+interaction	GO:0006405	RNA export from nucleus	GSEA only	NA	NA	NA	positive	1.67685266461977	0.0320225329479506	46
+interaction	GO:0009958	positive gravitropism	GSEA only	NA	NA	NA	negative	-1.7119347851817	0.0320225329479506	34
+interaction	GO:0002097	tRNA wobble base modification	GSEA only	NA	NA	NA	positive	1.79714483031029	0.0328511419935919	20
+interaction	GO:0006352	DNA-templated transcription initiation	GSEA only	NA	NA	NA	positive	1.54819135605657	0.0332168088270132	90
+interaction	GO:0051493	regulation of cytoskeleton organization	GSEA only	NA	NA	NA	positive	1.64126047791736	0.0340390621915323	57
+interaction	GO:0033045	regulation of sister chromatid segregation	GSEA only	NA	NA	NA	positive	1.7672738375119	0.0340390621915323	22
+interaction	GO:0002218	activation of innate immune response	GSEA only	NA	NA	NA	positive	1.58749768319274	0.0341236379535984	53
+interaction	GO:0009695	jasmonic acid biosynthetic process	GSEA only	NA	NA	NA	positive	1.6486339281772	0.034681038257878	37
+interaction	GO:0045037	protein import into chloroplast stroma	GSEA only	NA	NA	NA	positive	1.6650900872032	0.0347012756191805	43
+interaction	GO:0010383	cell wall polysaccharide metabolic process	GSEA only	NA	NA	NA	negative	-1.52920166619142	0.0347942146202931	94
+interaction	GO:0007091	metaphase/anaphase transition of mitotic cell cycle	GSEA only	NA	NA	NA	positive	1.77271324791028	0.036239052142222	21
+interaction	GO:0044784	metaphase/anaphase transition of cell cycle	GSEA only	NA	NA	NA	positive	1.77271324791028	0.036239052142222	21
+interaction	GO:0000380	alternative mRNA splicing, via spliceosome	GSEA only	NA	NA	NA	negative	-1.73277130969685	0.0365976715232116	40
+interaction	GO:0031125	rRNA 3'-end processing	GSEA only	NA	NA	NA	positive	1.78615705458434	0.0369470746107147	17
+interaction	GO:0045787	positive regulation of cell cycle	GSEA only	NA	NA	NA	positive	1.70510636249098	0.0375344582594945	36
+interaction	GO:0042546	cell wall biogenesis	GSEA only	NA	NA	NA	negative	-1.39927893131511	0.0391020586871581	245
+interaction	GO:0009606	tropism	GSEA only	NA	NA	NA	negative	-1.50924751202851	0.0396722026417522	122
+interaction	GO:0071326	cellular response to monosaccharide stimulus	GSEA only	NA	NA	NA	positive	1.77969052517773	0.0396722026417522	19
+interaction	GO:0071331	cellular response to hexose stimulus	GSEA only	NA	NA	NA	positive	1.77969052517773	0.0396722026417522	19
+interaction	GO:0030003	intracellular monoatomic cation homeostasis	GSEA only	NA	NA	NA	positive	1.43984053911946	0.0400589869471326	167
+interaction	GO:0048768	root hair cell tip growth	GSEA only	NA	NA	NA	negative	-1.71867988245783	0.0407351052171876	32
+interaction	GO:0007064	mitotic sister chromatid cohesion	GSEA only	NA	NA	NA	positive	1.76590051016465	0.0411620558922623	17
+interaction	GO:0007093	mitotic cell cycle checkpoint signaling	GSEA only	NA	NA	NA	positive	1.63983384899994	0.0412750299914367	31
+interaction	GO:0045893	positive regulation of DNA-templated transcription	GSEA only	NA	NA	NA	positive	1.30989219905194	0.0416517777112497	348
+interaction	GO:1902680	positive regulation of RNA biosynthetic process	GSEA only	NA	NA	NA	positive	1.30989219905194	0.0416517777112497	348
+interaction	GO:0030422	siRNA processing	GSEA only	NA	NA	NA	positive	1.68067056055488	0.0422401443253545	39
+interaction	GO:0006890	retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum	GSEA only	NA	NA	NA	positive	1.69255970476774	0.0422401443253545	35
+interaction	GO:1990778	protein localization to cell periphery	GSEA only	NA	NA	NA	positive	1.70862225547832	0.0428523625027417	29
+interaction	GO:1901991	negative regulation of mitotic cell cycle phase transition	GSEA only	NA	NA	NA	positive	1.70346965191927	0.0428523625027417	29
+interaction	GO:0019953	sexual reproduction	GSEA only	NA	NA	NA	positive	1.35267531716982	0.0429061827393924	281
+interaction	GO:0044273	sulfur compound catabolic process	GSEA only	NA	NA	NA	positive	1.68635515974793	0.0431236395869071	44
+interaction	GO:0051668	localization within membrane	GSEA only	NA	NA	NA	positive	1.44260163011246	0.0435296212449867	166
+interaction	GO:0016144	S-glycoside biosynthetic process	GSEA only	NA	NA	NA	negative	-1.65375457615074	0.0435296212449867	47
+interaction	GO:0019761	glucosinolate biosynthetic process	GSEA only	NA	NA	NA	negative	-1.65375457615074	0.0435296212449867	47
+interaction	GO:0006644	phospholipid metabolic process	GSEA only	NA	NA	NA	positive	1.38269151459066	0.0435764485296696	184
+interaction	GO:0007389	pattern specification process	GSEA only	NA	NA	NA	positive	1.385577255851	0.0444539472111693	210
+interaction	GO:0006833	water transport	GSEA only	NA	NA	NA	negative	-1.67208846973851	0.0444539472111693	34
+interaction	GO:0042044	fluid transport	GSEA only	NA	NA	NA	negative	-1.67208846973851	0.0444539472111693	34
+interaction	GO:0009165	nucleotide biosynthetic process	GSEA only	NA	NA	NA	positive	1.46504401660198	0.0444539472111693	100
+interaction	GO:0048609	multicellular organismal reproductive process	GSEA only	NA	NA	NA	positive	1.39333612578815	0.0444539472111693	202
+interaction	GO:0006563	L-serine metabolic process	GSEA only	NA	NA	NA	negative	-1.6613117743948	0.0444539472111693	29
+interaction	GO:0051239	regulation of multicellular organismal process	GSEA only	NA	NA	NA	positive	1.29017744800656	0.0448755744501938	463
+interaction	GO:0071897	DNA biosynthetic process	GSEA only	NA	NA	NA	positive	1.6911433588881	0.044978898979897	26
+interaction	GO:0000086	G2/M transition of mitotic cell cycle	GSEA only	NA	NA	NA	positive	1.6255611662345	0.045095768961683	31
+interaction	GO:0010228	vegetative to reproductive phase transition of meristem	GSEA only	NA	NA	NA	positive	1.3520020379883	0.045463464071812	259
+interaction	GO:0030029	actin filament-based process	GSEA only	NA	NA	NA	positive	1.49067015351793	0.0456339443540653	115
+interaction	GO:0070925	organelle assembly	GSEA only	NA	NA	NA	positive	1.44865250366272	0.0456652203890858	163
+interaction	GO:0010638	positive regulation of organelle organization	GSEA only	NA	NA	NA	positive	1.64938837964207	0.0462856999755798	40
+interaction	GO:0010374	stomatal complex development	GSEA only	NA	NA	NA	positive	1.5265501346497	0.0463430224535242	77
+interaction	GO:0006694	steroid biosynthetic process	GSEA only	NA	NA	NA	negative	-1.62364581433368	0.0464319631508873	51
+interaction	GO:0009556	microsporogenesis	GSEA only	NA	NA	NA	positive	1.68867205197801	0.0476557584022473	27
+interaction	GO:0006661	phosphatidylinositol biosynthetic process	GSEA only	NA	NA	NA	positive	1.60122291681007	0.0477455794065059	46
+interaction	GO:0044272	sulfur compound biosynthetic process	GSEA only	NA	NA	NA	negative	-1.4322183560555	0.0480472996036271	153
+interaction	GO:0002253	activation of immune response	GSEA only	NA	NA	NA	positive	1.59853346412242	0.0480472996036271	55
+interaction	GO:0033500	carbohydrate homeostasis	GSEA only	NA	NA	NA	positive	1.65847444433955	0.0480472996036271	30
+interaction	GO:0048232	male gamete generation	GSEA only	NA	NA	NA	positive	1.56450434581568	0.0481935825373235	59
+interaction	GO:0045143	homologous chromosome segregation	GSEA only	NA	NA	NA	positive	1.67219838279103	0.0483688654682359	38
+interaction	GO:0060966	regulation of gene silencing by regulatory ncRNA	GSEA only	NA	NA	NA	positive	1.74059918338672	0.0491256562139233	17
+interaction	GO:0003002	regionalization	GSEA only	NA	NA	NA	positive	1.38855396336848	0.0491256562139233	173
+interaction	GO:0009629	response to gravity	GSEA only	NA	NA	NA	negative	-1.49422107217216	0.0494257796376178	103
+interaction	GO:0009409	response to cold	both	positive	0.00787856979391624	7	positive	1.60067597453445	8.20624783131717e-05	423
+interaction	GO:0009414	response to water deprivation	both	positive	0.0397705734226454	6	positive	1.56187693627101	0.000365104633002249	438
+interaction	GO:0009415	response to water	both	positive	0.0397705734226454	6	positive	1.4950964888051	0.000787925386959849	450
+interaction	GO:0001101	response to acid chemical	both	positive	0.0488779921159185	6	positive	1.4918600240887	0.000968315311533661	483
+interaction	GO:0009694	jasmonic acid metabolic process	both	positive	0.00335719148262413	4	positive	1.85660271293674	0.0039330191331802	58
+interaction	GO:0009631	cold acclimation	both	positive	0.0309866331462686	3	positive	1.85501304616523	0.0067876426088497	63
+interaction	GO:0001676	long-chain fatty acid metabolic process	both	positive	0.00335719148262413	4	positive	1.64256068947121	0.0212402589843098	69
+WT_drought	GO:0042254	ribosome biogenesis	GSEA only	NA	NA	NA	negative	-2.44957783395676	1.27846153846154e-08	311
+WT_drought	GO:0006399	tRNA metabolic process	GSEA only	NA	NA	NA	negative	-2.3975548859012	1.27846153846154e-08	178
+WT_drought	GO:0016072	rRNA metabolic process	GSEA only	NA	NA	NA	negative	-2.36196569258253	1.27846153846154e-08	247
+WT_drought	GO:0006364	rRNA processing	GSEA only	NA	NA	NA	negative	-2.35613269863912	1.27846153846154e-08	227
+WT_drought	GO:0006281	DNA repair	GSEA only	NA	NA	NA	negative	-2.31363192147571	1.27846153846154e-08	336
+WT_drought	GO:0006974	DNA damage response	GSEA only	NA	NA	NA	negative	-2.26067116510485	1.27846153846154e-08	376
+WT_drought	GO:0022613	ribonucleoprotein complex biogenesis	GSEA only	NA	NA	NA	negative	-2.17446407399549	1.27846153846154e-08	385
+WT_drought	GO:0009451	RNA modification	GSEA only	NA	NA	NA	negative	-2.05900882522973	1.27846153846154e-08	347
+WT_drought	GO:0032787	monocarboxylic acid metabolic process	GSEA only	NA	NA	NA	positive	1.93983236326079	1.27846153846154e-08	448
+WT_drought	GO:0006302	double-strand break repair	GSEA only	NA	NA	NA	negative	-2.26003218647462	2.56054110940098e-08	134
+WT_drought	GO:0006260	DNA replication	GSEA only	NA	NA	NA	negative	-2.21278743273722	2.88730542119671e-08	160
+WT_drought	GO:0015711	organic anion transport	GSEA only	NA	NA	NA	positive	2.21155557199505	3.43452886777338e-08	126
+WT_drought	GO:0006338	chromatin remodeling	GSEA only	NA	NA	NA	negative	-1.94286331395558	3.89681093858202e-08	287
+WT_drought	GO:0006325	chromatin organization	GSEA only	NA	NA	NA	negative	-1.90413930260962	4.240893736365e-08	304
+WT_drought	GO:0008033	tRNA processing	GSEA only	NA	NA	NA	negative	-2.34554528976688	8.68015024709583e-08	99
+WT_drought	GO:0000271	polysaccharide biosynthetic process	GSEA only	NA	NA	NA	positive	2.01817292313159	1.05301281752856e-07	203
+WT_drought	GO:0042546	cell wall biogenesis	GSEA only	NA	NA	NA	positive	1.9784160277568	1.13933111994082e-07	245
+WT_drought	GO:0006631	fatty acid metabolic process	GSEA only	NA	NA	NA	positive	1.96335333697404	1.93583215987425e-07	256
+WT_drought	GO:0005976	polysaccharide metabolic process	GSEA only	NA	NA	NA	positive	1.84321964518761	2.04068328645069e-07	354
+WT_drought	GO:0022402	cell cycle process	GSEA only	NA	NA	NA	negative	-1.66952221249195	3.95742239551492e-07	494
+WT_drought	GO:0048507	meristem development	GSEA only	NA	NA	NA	negative	-1.83676485043352	3.95742239551492e-07	308
+WT_drought	GO:0010629	negative regulation of gene expression	GSEA only	NA	NA	NA	negative	-1.72715239444606	8.99678190478902e-07	377
+WT_drought	GO:0000725	recombinational repair	GSEA only	NA	NA	NA	negative	-2.22309912004159	1.13632963626476e-06	96
+WT_drought	GO:0043414	macromolecule methylation	GSEA only	NA	NA	NA	negative	-2.30654066730828	1.13632963626476e-06	74
+WT_drought	GO:0051276	chromosome organization	GSEA only	NA	NA	NA	negative	-1.9800777336439	1.62065478550566e-06	198
+WT_drought	GO:0044282	small molecule catabolic process	GSEA only	NA	NA	NA	positive	1.89656106519424	3.2572213256342e-06	198
+WT_drought	GO:0044770	cell cycle phase transition	GSEA only	NA	NA	NA	negative	-2.13386621683974	3.39392531069201e-06	103
+WT_drought	GO:0006261	DNA-templated DNA replication	GSEA only	NA	NA	NA	negative	-2.10300832398256	3.60279476473723e-06	129
+WT_drought	GO:0006400	tRNA modification	GSEA only	NA	NA	NA	negative	-2.30556393322477	5.40558719484725e-06	75
+WT_drought	GO:0000724	double-strand break repair via homologous recombination	GSEA only	NA	NA	NA	negative	-2.20693363903836	6.03385369159932e-06	90
+WT_drought	GO:0001510	RNA methylation	GSEA only	NA	NA	NA	negative	-2.29556018157697	6.33382285780228e-06	62
+WT_drought	GO:0000278	mitotic cell cycle	GSEA only	NA	NA	NA	negative	-1.83619856723255	8.13508139163687e-06	246
+WT_drought	GO:0031123	RNA 3'-end processing	GSEA only	NA	NA	NA	negative	-2.33553438268641	9.55153126576153e-06	66
+WT_drought	GO:0009832	plant-type cell wall biogenesis	GSEA only	NA	NA	NA	positive	1.8571100900959	9.55153126576153e-06	206
+WT_drought	GO:0016071	mRNA metabolic process	GSEA only	NA	NA	NA	negative	-1.60228636490733	1.04183248865093e-05	486
+WT_drought	GO:0010073	meristem maintenance	GSEA only	NA	NA	NA	negative	-1.8642894957379	1.05685228852198e-05	176
+WT_drought	GO:0071456	cellular response to hypoxia	GSEA only	NA	NA	NA	positive	1.82944661593238	1.16977404505803e-05	239
+WT_drought	GO:0044772	mitotic cell cycle phase transition	GSEA only	NA	NA	NA	negative	-2.1522958871923	1.60759371999894e-05	83
+WT_drought	GO:0036294	cellular response to decreased oxygen levels	GSEA only	NA	NA	NA	positive	1.80096511222323	2.31867292121219e-05	241
+WT_drought	GO:0071453	cellular response to oxygen levels	GSEA only	NA	NA	NA	positive	1.80096511222323	2.31867292121219e-05	241
+WT_drought	GO:0006310	DNA recombination	GSEA only	NA	NA	NA	negative	-1.8137347227257	2.49311930544842e-05	184
+WT_drought	GO:0010383	cell wall polysaccharide metabolic process	GSEA only	NA	NA	NA	positive	2.03839734651049	2.49311930544842e-05	94
+WT_drought	GO:0000819	sister chromatid segregation	GSEA only	NA	NA	NA	negative	-2.2459394057804	2.49311930544842e-05	60
+WT_drought	GO:0044042	glucan metabolic process	GSEA only	NA	NA	NA	positive	1.82911333385145	2.74997985924227e-05	218
+WT_drought	GO:0010564	regulation of cell cycle process	GSEA only	NA	NA	NA	negative	-1.93876450914941	2.74997985924227e-05	134
+WT_drought	GO:0016051	carbohydrate biosynthetic process	GSEA only	NA	NA	NA	positive	1.7852348688732	3.11909746201987e-05	297
+WT_drought	GO:0009699	phenylpropanoid biosynthetic process	GSEA only	NA	NA	NA	positive	2.02057911388279	3.12932801283879e-05	103
+WT_drought	GO:0009698	phenylpropanoid metabolic process	GSEA only	NA	NA	NA	positive	1.94091922326451	3.8761317103813e-05	138
+WT_drought	GO:0044550	secondary metabolite biosynthetic process	GSEA only	NA	NA	NA	positive	1.96084154441883	4.09882612937496e-05	122
+WT_drought	GO:0008356	asymmetric cell division	GSEA only	NA	NA	NA	negative	-2.33515253301884	4.90522950643644e-05	33
+WT_drought	GO:1903047	mitotic cell cycle process	GSEA only	NA	NA	NA	negative	-1.77155372777563	6.77621784670365e-05	187
+WT_drought	GO:0010608	post-transcriptional regulation of gene expression	GSEA only	NA	NA	NA	negative	-1.75129802283522	7.72956351048627e-05	184
+WT_drought	GO:0007389	pattern specification process	GSEA only	NA	NA	NA	negative	-1.72747386471376	0.000104365196121881	210
+WT_drought	GO:1905392	plant organ morphogenesis	GSEA only	NA	NA	NA	negative	-1.50051776625966	0.000141412725021578	493
+WT_drought	GO:0141188	nucleic acid catabolic process	GSEA only	NA	NA	NA	negative	-1.88140729581216	0.000143785549001491	138
+WT_drought	GO:0070592	cell wall polysaccharide biosynthetic process	GSEA only	NA	NA	NA	positive	1.97694455055731	0.000146977999647344	84
+WT_drought	GO:0006401	RNA catabolic process	GSEA only	NA	NA	NA	negative	-1.85013427719839	0.000149489549967383	131
+WT_drought	GO:0072330	monocarboxylic acid biosynthetic process	GSEA only	NA	NA	NA	positive	1.75990572512458	0.000152694554287912	214
+WT_drought	GO:0051726	regulation of cell cycle	GSEA only	NA	NA	NA	negative	-1.8026159552225	0.00015643006789218	181
+WT_drought	GO:1901658	glycosyl compound catabolic process	GSEA only	NA	NA	NA	positive	2.11644409579953	0.000180887909287993	38
+WT_drought	GO:0044036	cell wall macromolecule metabolic process	GSEA only	NA	NA	NA	positive	1.89660752037885	0.000206135322524474	122
+WT_drought	GO:0045786	negative regulation of cell cycle	GSEA only	NA	NA	NA	negative	-2.11490158049479	0.000217084975626839	58
+WT_drought	GO:0035266	meristem growth	GSEA only	NA	NA	NA	negative	-1.95913437760376	0.000240147041150804	87
+WT_drought	GO:0016054	organic acid catabolic process	GSEA only	NA	NA	NA	positive	1.83562112948711	0.000256832660889827	139
+WT_drought	GO:0046395	carboxylic acid catabolic process	GSEA only	NA	NA	NA	positive	1.83562112948711	0.000256832660889827	139
+WT_drought	GO:0010118	stomatal movement	GSEA only	NA	NA	NA	positive	1.81082937693458	0.00025831371145173	163
+WT_drought	GO:0000959	mitochondrial RNA metabolic process	GSEA only	NA	NA	NA	negative	-1.97247097539985	0.000259502076003527	74
+WT_drought	GO:0051301	cell division	GSEA only	NA	NA	NA	negative	-1.62256518839888	0.00030918722412071	267
+WT_drought	GO:0010948	negative regulation of cell cycle process	GSEA only	NA	NA	NA	negative	-1.99334144533869	0.000331099118747864	56
+WT_drought	GO:0006888	endoplasmic reticulum to Golgi vesicle-mediated transport	GSEA only	NA	NA	NA	positive	1.87884215561298	0.000336008560472863	93
+WT_drought	GO:0042273	ribosomal large subunit biogenesis	GSEA only	NA	NA	NA	negative	-2.05160379737032	0.00035862717575939	68
+WT_drought	GO:0042274	ribosomal small subunit biogenesis	GSEA only	NA	NA	NA	negative	-1.93849615711705	0.000402577736947396	78
+WT_drought	GO:0072329	monocarboxylic acid catabolic process	GSEA only	NA	NA	NA	positive	1.9855307918349	0.000402577736947396	56
+WT_drought	GO:0160062	cutin-based cuticle development	GSEA only	NA	NA	NA	positive	2.06476818017277	0.000402577736947396	43
+WT_drought	GO:0016441	post-transcriptional gene silencing	GSEA only	NA	NA	NA	negative	-1.96769858271633	0.000435841418101824	56
+WT_drought	GO:0040029	epigenetic regulation of gene expression	GSEA only	NA	NA	NA	negative	-1.66626790619047	0.000449791860321924	201
+WT_drought	GO:0002213	defense response to insect	GSEA only	NA	NA	NA	positive	2.01411198764996	0.00046155660801158	45
+WT_drought	GO:0006633	fatty acid biosynthetic process	GSEA only	NA	NA	NA	positive	1.81727709605289	0.000463215380925485	143
+WT_drought	GO:0009657	plastid organization	GSEA only	NA	NA	NA	negative	-1.51485108132765	0.000469423811603133	306
+WT_drought	GO:0006270	DNA replication initiation	GSEA only	NA	NA	NA	negative	-2.12636525178455	0.000474386107328047	24
+WT_drought	GO:0009658	chloroplast organization	GSEA only	NA	NA	NA	negative	-1.64240855132909	0.000494133868497456	233
+WT_drought	GO:0001676	long-chain fatty acid metabolic process	GSEA only	NA	NA	NA	positive	1.96040814425301	0.000494133868497456	69
+WT_drought	GO:0010075	regulation of meristem growth	GSEA only	NA	NA	NA	negative	-2.02172561311403	0.000533288735961642	68
+WT_drought	GO:1901987	regulation of cell cycle phase transition	GSEA only	NA	NA	NA	negative	-1.98683717560211	0.00053981530952441	69
+WT_drought	GO:0140053	mitochondrial gene expression	GSEA only	NA	NA	NA	negative	-2.00145426887087	0.000548162998620983	65
+WT_drought	GO:0043038	amino acid activation	GSEA only	NA	NA	NA	negative	-2.0270825330214	0.00055249091532941	54
+WT_drought	GO:0000070	mitotic sister chromatid segregation	GSEA only	NA	NA	NA	negative	-2.02604609300433	0.000587739151524821	49
+WT_drought	GO:0016042	lipid catabolic process	GSEA only	NA	NA	NA	positive	1.81808625183007	0.000692478587999147	114
+WT_drought	GO:0016145	S-glycoside catabolic process	GSEA only	NA	NA	NA	positive	2.04046251529343	0.000803141638889227	28
+WT_drought	GO:0019762	glucosinolate catabolic process	GSEA only	NA	NA	NA	positive	2.04046251529343	0.000803141638889227	28
+WT_drought	GO:0031145	anaphase-promoting complex-dependent catabolic process	GSEA only	NA	NA	NA	negative	-2.11598442390432	0.000814368608679616	16
+WT_drought	GO:2000067	regulation of root morphogenesis	GSEA only	NA	NA	NA	negative	-2.13534576380266	0.000862871036233886	30
+WT_drought	GO:0031047	regulatory ncRNA-mediated gene silencing	GSEA only	NA	NA	NA	negative	-1.74343595589362	0.00091836232447027	138
+WT_drought	GO:0140014	mitotic nuclear division	GSEA only	NA	NA	NA	negative	-1.9439596369562	0.000946981131012454	62
+WT_drought	GO:0010345	suberin biosynthetic process	GSEA only	NA	NA	NA	positive	2.02349583232415	0.000946981131012454	21
+WT_drought	GO:0007062	sister chromatid cohesion	GSEA only	NA	NA	NA	negative	-2.01292676615281	0.00102897472943009	51
+WT_drought	GO:0010555	response to mannitol	GSEA only	NA	NA	NA	positive	2.05686154875389	0.00107082059897925	26
+WT_drought	GO:0043039	tRNA aminoacylation	GSEA only	NA	NA	NA	negative	-2.02129244190714	0.00115292791990783	53
+WT_drought	GO:0045489	pectin biosynthetic process	GSEA only	NA	NA	NA	positive	1.98524951514621	0.00116748802473081	43
+WT_drought	GO:0071669	plant-type cell wall organization or biogenesis	GSEA only	NA	NA	NA	positive	1.55358172656189	0.00121225013511744	349
+WT_drought	GO:0051052	regulation of DNA metabolic process	GSEA only	NA	NA	NA	negative	-1.79620001925737	0.00132483991487746	108
+WT_drought	GO:0007346	regulation of mitotic cell cycle	GSEA only	NA	NA	NA	negative	-1.9273560068428	0.00137451182777149	69
+WT_drought	GO:0009834	plant-type secondary cell wall biogenesis	GSEA only	NA	NA	NA	positive	1.8135492078085	0.00139287826552942	103
+WT_drought	GO:0007059	chromosome segregation	GSEA only	NA	NA	NA	negative	-1.65539709862461	0.00143490114831957	153
+WT_drought	GO:0030490	maturation of SSU-rRNA	GSEA only	NA	NA	NA	negative	-1.95169662298695	0.00149819745324795	49
+WT_drought	GO:1905421	regulation of plant organ morphogenesis	GSEA only	NA	NA	NA	negative	-1.93106364885508	0.00149966068719441	55
+WT_drought	GO:0008652	amino acid biosynthetic process	GSEA only	NA	NA	NA	negative	-1.59752461581469	0.00168794008804624	176
+WT_drought	GO:0006402	mRNA catabolic process	GSEA only	NA	NA	NA	negative	-1.77323212787377	0.00170957182160174	108
+WT_drought	GO:0010305	leaf vascular tissue pattern formation	GSEA only	NA	NA	NA	negative	-2.06674471871769	0.00191751838915597	31
+WT_drought	GO:0009250	glucan biosynthetic process	GSEA only	NA	NA	NA	positive	1.74347641486147	0.00228426264423394	116
+WT_drought	GO:0019827	stem cell population maintenance	GSEA only	NA	NA	NA	negative	-1.85092461111333	0.00232271837274734	80
+WT_drought	GO:0098727	maintenance of cell number	GSEA only	NA	NA	NA	negative	-1.85092461111333	0.00232271837274734	80
+WT_drought	GO:1901988	negative regulation of cell cycle phase transition	GSEA only	NA	NA	NA	negative	-1.96935498660993	0.0024229666592511	44
+WT_drought	GO:0000038	very long-chain fatty acid metabolic process	GSEA only	NA	NA	NA	positive	1.92181339741227	0.00263711709106088	39
+WT_drought	GO:0000963	mitochondrial RNA processing	GSEA only	NA	NA	NA	negative	-2.03795744164738	0.00290313396844508	36
+WT_drought	GO:0006665	sphingolipid metabolic process	GSEA only	NA	NA	NA	positive	1.86286979136607	0.00291114022973026	55
+WT_drought	GO:0009965	leaf morphogenesis	GSEA only	NA	NA	NA	negative	-1.72377522843855	0.00318559890633904	108
+WT_drought	GO:0000075	cell cycle checkpoint signaling	GSEA only	NA	NA	NA	negative	-1.95399496732976	0.00333851792908975	43
+WT_drought	GO:0023051	regulation of signaling	GSEA only	NA	NA	NA	positive	1.48039350828342	0.0034358234404585	379
+WT_drought	GO:0031425	chloroplast RNA processing	GSEA only	NA	NA	NA	negative	-2.00811649267381	0.0034358234404585	29
+WT_drought	GO:0071577	zinc ion transmembrane transport	GSEA only	NA	NA	NA	negative	-2.08928489459162	0.00378373259557078	19
+WT_drought	GO:0006418	tRNA aminoacylation for protein translation	GSEA only	NA	NA	NA	negative	-1.9026117461487	0.00384748672932544	50
+WT_drought	GO:0030488	tRNA methylation	GSEA only	NA	NA	NA	negative	-2.00027042497902	0.00384748672932544	26
+WT_drought	GO:0006575	modified amino acid metabolic process	GSEA only	NA	NA	NA	positive	1.73310011191203	0.00409351045065103	102
+WT_drought	GO:0003002	regionalization	GSEA only	NA	NA	NA	negative	-1.58430240933862	0.00411446724767729	173
+WT_drought	GO:0000154	rRNA modification	GSEA only	NA	NA	NA	negative	-1.95553897083843	0.00435830107800362	38
+WT_drought	GO:0000460	maturation of 5.8S rRNA	GSEA only	NA	NA	NA	negative	-1.98422602130925	0.00435830107800362	32
+WT_drought	GO:1901990	regulation of mitotic cell cycle phase transition	GSEA only	NA	NA	NA	negative	-1.88929059153236	0.00439356158759857	50
+WT_drought	GO:0010628	positive regulation of gene expression	GSEA only	NA	NA	NA	negative	-1.80657250496757	0.005271419264417	85
+WT_drought	GO:0010087	phloem or xylem histogenesis	GSEA only	NA	NA	NA	negative	-1.63316443589405	0.005271419264417	122
+WT_drought	GO:0032259	methylation	GSEA only	NA	NA	NA	negative	-1.67175771893808	0.00543216414710397	118
+WT_drought	GO:0005985	sucrose metabolic process	GSEA only	NA	NA	NA	positive	1.87838008963118	0.00543216414710397	30
+WT_drought	GO:0110096	cellular response to aldehyde	GSEA only	NA	NA	NA	positive	1.89757266501133	0.00543216414710397	20
+WT_drought	GO:0033044	regulation of chromosome organization	GSEA only	NA	NA	NA	negative	-1.8797534279939	0.00544657625057916	37
+WT_drought	GO:0048598	embryonic morphogenesis	GSEA only	NA	NA	NA	negative	-1.94194013793197	0.00544657625057916	33
+WT_drought	GO:0010646	regulation of cell communication	GSEA only	NA	NA	NA	positive	1.49495364588315	0.005519675925549	380
+WT_drought	GO:0009225	nucleotide-sugar metabolic process	GSEA only	NA	NA	NA	positive	1.85309846898786	0.0055531470319107	37
+WT_drought	GO:0030244	cellulose biosynthetic process	GSEA only	NA	NA	NA	positive	1.81247596252986	0.00562366814296254	61
+WT_drought	GO:0010449	root meristem growth	GSEA only	NA	NA	NA	negative	-1.83841581278758	0.00568753488450989	51
+WT_drought	GO:0007018	microtubule-based movement	GSEA only	NA	NA	NA	negative	-1.97018326950982	0.00568753488450989	36
+WT_drought	GO:0060147	regulation of post-transcriptional gene silencing	GSEA only	NA	NA	NA	negative	-1.97141417905039	0.00577382075369243	15
+WT_drought	GO:0048829	root cap development	GSEA only	NA	NA	NA	negative	-1.96793935636592	0.0057741745549628	15
+WT_drought	GO:0070972	protein localization to endoplasmic reticulum	GSEA only	NA	NA	NA	positive	1.95739747886512	0.00589482496492775	22
+WT_drought	GO:0009966	regulation of signal transduction	GSEA only	NA	NA	NA	positive	1.47372314557706	0.00604952413551525	376
+WT_drought	GO:0098813	nuclear chromosome segregation	GSEA only	NA	NA	NA	negative	-1.62035950532895	0.00604952413551525	106
+WT_drought	GO:0046185	aldehyde catabolic process	GSEA only	NA	NA	NA	positive	1.92377265036524	0.00615384967279188	19
+WT_drought	GO:1905039	carboxylic acid transmembrane transport	GSEA only	NA	NA	NA	positive	1.84101706186353	0.00643554559185949	43
+WT_drought	GO:0051259	protein complex oligomerization	GSEA only	NA	NA	NA	positive	1.77964013054496	0.00654107633602304	48
+WT_drought	GO:0030243	cellulose metabolic process	GSEA only	NA	NA	NA	positive	1.86755485526351	0.00654107633602304	66
+WT_drought	GO:0006835	dicarboxylic acid transport	GSEA only	NA	NA	NA	positive	1.90389219368514	0.00664667878473527	32
+WT_drought	GO:0009553	embryo sac development	GSEA only	NA	NA	NA	negative	-1.60117184178367	0.00664667878473527	150
+WT_drought	GO:0045229	external encapsulating structure organization	GSEA only	NA	NA	NA	positive	1.46910982101733	0.00674770089913716	337
+WT_drought	GO:0048638	regulation of developmental growth	GSEA only	NA	NA	NA	negative	-1.52990024166362	0.00717047695805755	172
+WT_drought	GO:0048193	Golgi vesicle transport	GSEA only	NA	NA	NA	positive	1.57805508311851	0.00717722570676885	192
+WT_drought	GO:0010082	regulation of root meristem growth	GSEA only	NA	NA	NA	negative	-1.90385855763679	0.00717722570676885	40
+WT_drought	GO:0045165	cell fate commitment	GSEA only	NA	NA	NA	negative	-1.68015164115502	0.00724921624257242	87
+WT_drought	GO:0015718	monocarboxylic acid transport	GSEA only	NA	NA	NA	positive	1.84440257288289	0.00730563799216685	36
+WT_drought	GO:0009694	jasmonic acid metabolic process	GSEA only	NA	NA	NA	positive	1.8113933097425	0.00754059197756205	58
+WT_drought	GO:0007091	metaphase/anaphase transition of mitotic cell cycle	GSEA only	NA	NA	NA	negative	-1.94933522324717	0.00871326965955542	21
+WT_drought	GO:0044784	metaphase/anaphase transition of cell cycle	GSEA only	NA	NA	NA	negative	-1.94933522324717	0.00871326965955542	21
+WT_drought	GO:0010411	xyloglucan metabolic process	GSEA only	NA	NA	NA	positive	1.79664447379674	0.00871326965955542	58
+WT_drought	GO:0031125	rRNA 3'-end processing	GSEA only	NA	NA	NA	negative	-1.95656379099645	0.00897153302993893	17
+WT_drought	GO:0045492	xylan biosynthetic process	GSEA only	NA	NA	NA	positive	1.80047683926239	0.00944044069429977	43
+WT_drought	GO:0045324	late endosome to vacuole transport	GSEA only	NA	NA	NA	positive	1.78537154061803	0.00956320370356367	50
+WT_drought	GO:1901607	alpha-amino acid biosynthetic process	GSEA only	NA	NA	NA	negative	-1.49707186006103	0.00962382344111012	166
+WT_drought	GO:0044273	sulfur compound catabolic process	GSEA only	NA	NA	NA	positive	1.8377511290726	0.0111239606181455	44
+WT_drought	GO:0000470	maturation of LSU-rRNA	GSEA only	NA	NA	NA	negative	-1.86377468510851	0.0117652799087805	34
+WT_drought	GO:0110095	cellular detoxification of aldehyde	GSEA only	NA	NA	NA	positive	1.86487126352359	0.0117652799087805	19
+WT_drought	GO:0042759	long-chain fatty acid biosynthetic process	GSEA only	NA	NA	NA	positive	1.82569839395365	0.0122211345811487	44
+WT_drought	GO:0042793	plastid transcription	GSEA only	NA	NA	NA	negative	-1.87444269833692	0.0128114627304851	15
+WT_drought	GO:0009808	lignin metabolic process	GSEA only	NA	NA	NA	positive	1.75341513260843	0.0129376441402286	65
+WT_drought	GO:0048285	organelle fission	GSEA only	NA	NA	NA	negative	-1.43458063414055	0.0130542982462505	213
+WT_drought	GO:0140694	membraneless organelle assembly	GSEA only	NA	NA	NA	negative	-1.54958019710639	0.0136083354545033	110
+WT_drought	GO:0000302	response to reactive oxygen species	GSEA only	NA	NA	NA	positive	1.55378727138324	0.0143281581490287	165
+WT_drought	GO:0001708	cell fate specification	GSEA only	NA	NA	NA	negative	-1.856032400233	0.0143281581490287	39
+WT_drought	GO:0009809	lignin biosynthetic process	GSEA only	NA	NA	NA	positive	1.70129331917488	0.0152631581509976	53
+WT_drought	GO:0000280	nuclear division	GSEA only	NA	NA	NA	negative	-1.44326551654137	0.0157278382743587	176
+WT_drought	GO:0007034	vacuolar transport	GSEA only	NA	NA	NA	positive	1.64121391892309	0.0157278382743587	111
+WT_drought	GO:0006284	base-excision repair	GSEA only	NA	NA	NA	negative	-1.83773778829862	0.0157278382743587	31
+WT_drought	GO:0032544	plastid translation	GSEA only	NA	NA	NA	negative	-1.89914528780307	0.0159552732655224	21
+WT_drought	GO:0009687	abscisic acid metabolic process	GSEA only	NA	NA	NA	positive	1.77252733056083	0.0161601361694148	39
+WT_drought	GO:1902644	tertiary alcohol metabolic process	GSEA only	NA	NA	NA	positive	1.77252733056083	0.0161601361694148	39
+WT_drought	GO:0035194	regulatory ncRNA-mediated post-transcriptional gene silencing	GSEA only	NA	NA	NA	negative	-1.85199450635873	0.0161601361694148	36
+WT_drought	GO:0006108	malate metabolic process	GSEA only	NA	NA	NA	positive	1.88208031278414	0.0165684527361396	17
+WT_drought	GO:0033045	regulation of sister chromatid segregation	GSEA only	NA	NA	NA	negative	-1.93806067794997	0.0167336285617025	22
+WT_drought	GO:0044272	sulfur compound biosynthetic process	GSEA only	NA	NA	NA	negative	-1.47996724035749	0.0168861998306405	153
+WT_drought	GO:0008284	positive regulation of cell population proliferation	GSEA only	NA	NA	NA	negative	-1.90956144756402	0.0174596653790052	23
+WT_drought	GO:0009408	response to heat	GSEA only	NA	NA	NA	positive	1.43923561528165	0.0175000448708543	287
+WT_drought	GO:0045488	pectin metabolic process	GSEA only	NA	NA	NA	positive	1.62514927686119	0.0175592535083876	78
+WT_drought	GO:0030148	sphingolipid biosynthetic process	GSEA only	NA	NA	NA	positive	1.76187700975669	0.0176926336203254	40
+WT_drought	GO:0009867	jasmonic acid mediated signaling pathway	GSEA only	NA	NA	NA	positive	1.6181740608406	0.0188800663484605	103
+WT_drought	GO:0042631	cellular response to water deprivation	GSEA only	NA	NA	NA	positive	1.75809197130356	0.0197235972876699	39
+WT_drought	GO:0052546	cell wall pectin metabolic process	GSEA only	NA	NA	NA	positive	1.73977704536334	0.0197235972876699	43
+WT_drought	GO:0042761	very long-chain fatty acid biosynthetic process	GSEA only	NA	NA	NA	positive	1.77518651911132	0.0199740161351651	24
+WT_drought	GO:0010393	galacturonan metabolic process	GSEA only	NA	NA	NA	positive	1.65440741027971	0.0200918818410137	79
+WT_drought	GO:0071897	DNA biosynthetic process	GSEA only	NA	NA	NA	negative	-1.83024775676719	0.0202598572479509	26
+WT_drought	GO:0071025	RNA surveillance	GSEA only	NA	NA	NA	negative	-1.87721348438219	0.0203757907960309	16
+WT_drought	GO:0071027	nuclear RNA surveillance	GSEA only	NA	NA	NA	negative	-1.87721348438219	0.0203757907960309	16
+WT_drought	GO:0010051	xylem and phloem pattern formation	GSEA only	NA	NA	NA	negative	-1.68129235101495	0.0203831904695479	68
+WT_drought	GO:0006298	mismatch repair	GSEA only	NA	NA	NA	negative	-1.90081602391188	0.0222032970717197	19
+WT_drought	GO:0000082	G1/S transition of mitotic cell cycle	GSEA only	NA	NA	NA	negative	-1.81458021931953	0.0226187285494276	36
+WT_drought	GO:0006066	alcohol metabolic process	GSEA only	NA	NA	NA	positive	1.55463060201092	0.0235590319503697	136
+WT_drought	GO:0045934	negative regulation of nucleobase-containing compound metabolic process	GSEA only	NA	NA	NA	negative	-1.34388725458795	0.0241801955183051	252
+WT_drought	GO:0051273	beta-glucan metabolic process	GSEA only	NA	NA	NA	positive	1.63267704064217	0.0241914450396344	80
+WT_drought	GO:0051983	regulation of chromosome segregation	GSEA only	NA	NA	NA	negative	-1.78057383635108	0.0241914450396344	25
+WT_drought	GO:0031570	DNA integrity checkpoint signaling	GSEA only	NA	NA	NA	negative	-1.85900589197502	0.0253884432527825	27
+WT_drought	GO:0016556	mRNA modification	GSEA only	NA	NA	NA	negative	-1.72865867035199	0.0255006617128605	44
+WT_drought	GO:0000466	maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	GSEA only	NA	NA	NA	negative	-1.90517087763982	0.0259278252601714	20
+WT_drought	GO:0009734	auxin-activated signaling pathway	GSEA only	NA	NA	NA	negative	-1.50182301872728	0.0265510592466403	110
+WT_drought	GO:0007088	regulation of mitotic nuclear division	GSEA only	NA	NA	NA	negative	-1.83974039930602	0.0265510592466403	17
+WT_drought	GO:0005984	disaccharide metabolic process	GSEA only	NA	NA	NA	positive	1.62781259134482	0.0265510592466403	56
+WT_drought	GO:0034440	lipid oxidation	GSEA only	NA	NA	NA	positive	1.69032648220009	0.0268313443887582	55
+WT_drought	GO:1990069	stomatal opening	GSEA only	NA	NA	NA	positive	1.79596720154352	0.02690546816859	25
+WT_drought	GO:0071555	cell wall organization	GSEA only	NA	NA	NA	positive	1.41326795176479	0.0274830301194704	291
+WT_drought	GO:0006275	regulation of DNA replication	GSEA only	NA	NA	NA	negative	-1.56869946031715	0.0284015153347071	56
+WT_drought	GO:0009226	nucleotide-sugar biosynthetic process	GSEA only	NA	NA	NA	positive	1.75467426335713	0.0287758295974635	26
+WT_drought	GO:0000462	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	GSEA only	NA	NA	NA	negative	-1.75407749754094	0.0287869752788494	31
+WT_drought	GO:0071462	cellular response to water stimulus	GSEA only	NA	NA	NA	positive	1.7168687538383	0.029588194210525	40
+WT_drought	GO:1901136	carbohydrate derivative catabolic process	GSEA only	NA	NA	NA	positive	1.57659519213278	0.0297004181069077	113
+WT_drought	GO:0006816	calcium ion transport	GSEA only	NA	NA	NA	positive	1.61655339830188	0.0301138933946099	83
+WT_drought	GO:1902531	regulation of intracellular signal transduction	GSEA only	NA	NA	NA	positive	1.55784090326313	0.0303074231760759	94
+WT_drought	GO:0071985	multivesicular body sorting pathway	GSEA only	NA	NA	NA	positive	1.72079463389465	0.0317852122174015	38
+WT_drought	GO:0000041	transition metal ion transport	GSEA only	NA	NA	NA	negative	-1.60245092249426	0.0325283334599245	71
+WT_drought	GO:0048437	floral organ development	GSEA only	NA	NA	NA	negative	-1.35116645506393	0.032662245253484	239
+WT_drought	GO:1902074	response to salt	GSEA only	NA	NA	NA	positive	1.71630965180264	0.0328840407348541	47
+WT_drought	GO:0031167	rRNA methylation	GSEA only	NA	NA	NA	negative	-1.74617406576278	0.0333494941037072	24
+WT_drought	GO:0051302	regulation of cell division	GSEA only	NA	NA	NA	negative	-1.65544901038442	0.0333494941037072	72
+WT_drought	GO:0051304	chromosome separation	GSEA only	NA	NA	NA	negative	-1.79483136719349	0.0341167844734937	18
+WT_drought	GO:0010119	regulation of stomatal movement	GSEA only	NA	NA	NA	positive	1.55198689633346	0.035176225618748	111
+WT_drought	GO:0006520	amino acid metabolic process	GSEA only	NA	NA	NA	negative	-1.26717746086879	0.0358759437268372	383
+WT_drought	GO:0051644	plastid localization	GSEA only	NA	NA	NA	negative	-1.70155839962886	0.0362138159498809	34
+WT_drought	GO:0019750	chloroplast localization	GSEA only	NA	NA	NA	negative	-1.72468085051353	0.0364001508388783	33
+WT_drought	GO:0009695	jasmonic acid biosynthetic process	GSEA only	NA	NA	NA	positive	1.65843120757835	0.0364001508388783	37
+WT_drought	GO:0032509	endosome transport via multivesicular body sorting pathway	GSEA only	NA	NA	NA	positive	1.65841084379118	0.0364001508388783	37
+WT_drought	GO:0010256	endomembrane system organization	GSEA only	NA	NA	NA	positive	1.49683612267097	0.036587119582555	121
+WT_drought	GO:0010074	maintenance of meristem identity	GSEA only	NA	NA	NA	negative	-1.62865873133111	0.036587119582555	66
+WT_drought	GO:0170038	proteinogenic amino acid biosynthetic process	GSEA only	NA	NA	NA	negative	-1.45370197029981	0.036587119582555	137
+WT_drought	GO:0009934	regulation of meristem structural organization	GSEA only	NA	NA	NA	negative	-1.76040757428124	0.0369535606336086	21
+WT_drought	GO:0170041	non-proteinogenic amino acid metabolic process	GSEA only	NA	NA	NA	positive	1.66386289110894	0.0373966041387318	30
+WT_drought	GO:0030497	fatty acid elongation	GSEA only	NA	NA	NA	positive	1.72436046958822	0.0378404607339268	16
+WT_drought	GO:0010143	cutin biosynthetic process	GSEA only	NA	NA	NA	positive	1.71568014925162	0.0378404607339268	26
+WT_drought	GO:0010078	maintenance of root meristem identity	GSEA only	NA	NA	NA	negative	-1.63847415079764	0.0378404607339268	37
+WT_drought	GO:0065004	protein-DNA complex assembly	GSEA only	NA	NA	NA	negative	-1.61811397400162	0.0388338836467849	51
+WT_drought	GO:0052325	cell wall pectin biosynthetic process	GSEA only	NA	NA	NA	positive	1.70998111858235	0.0404079060872291	21
+WT_drought	GO:0051306	mitotic sister chromatid separation	GSEA only	NA	NA	NA	negative	-1.76537130968756	0.0404149439617498	16
+WT_drought	GO:0009933	meristem structural organization	GSEA only	NA	NA	NA	negative	-1.56445159231032	0.0405013340359617	69
+WT_drought	GO:0006271	DNA strand elongation involved in DNA replication	GSEA only	NA	NA	NA	negative	-1.79349189032022	0.0405013340359617	17
+WT_drought	GO:0022616	DNA strand elongation	GSEA only	NA	NA	NA	negative	-1.79349189032022	0.0405013340359617	17
+WT_drought	GO:0030071	regulation of mitotic metaphase/anaphase transition	GSEA only	NA	NA	NA	negative	-1.79087940599898	0.0407915985502622	17
+WT_drought	GO:1902099	regulation of metaphase/anaphase transition of cell cycle	GSEA only	NA	NA	NA	negative	-1.79087940599898	0.0407915985502622	17
+WT_drought	GO:0010965	regulation of mitotic sister chromatid separation	GSEA only	NA	NA	NA	negative	-1.71935212960798	0.0417158038909933	15
+WT_drought	GO:1905818	regulation of chromosome separation	GSEA only	NA	NA	NA	negative	-1.71935212960798	0.0417158038909933	15
+WT_drought	GO:0000956	nuclear-transcribed mRNA catabolic process	GSEA only	NA	NA	NA	negative	-1.50909940604042	0.0421287228217967	59
+WT_drought	GO:0009063	amino acid catabolic process	GSEA only	NA	NA	NA	positive	1.57322586481086	0.0421287228217967	79
+WT_drought	GO:0071395	cellular response to jasmonic acid stimulus	GSEA only	NA	NA	NA	positive	1.51560952966408	0.0430163898497216	107
+WT_drought	GO:0000966	RNA 5'-end processing	GSEA only	NA	NA	NA	negative	-1.79881232486794	0.0437212541646838	22
+WT_drought	GO:0032511	late endosome to vacuole transport via multivesicular body sorting pathway	GSEA only	NA	NA	NA	positive	1.66682750214083	0.0437504762040824	29
+WT_drought	GO:0016073	snRNA metabolic process	GSEA only	NA	NA	NA	negative	-1.71118849217334	0.0437799995417846	26
+WT_drought	GO:0009812	flavonoid metabolic process	GSEA only	NA	NA	NA	positive	1.55384163958069	0.0437799995417846	91
+WT_drought	GO:1901606	alpha-amino acid catabolic process	GSEA only	NA	NA	NA	positive	1.58966415567202	0.0438929184357037	68
+WT_drought	GO:0016125	sterol metabolic process	GSEA only	NA	NA	NA	positive	1.70203918346488	0.0451111575780251	32
+WT_drought	GO:0015772	oligosaccharide transport	GSEA only	NA	NA	NA	positive	1.77511757155383	0.0451166823721247	17
+WT_drought	GO:0042537	benzene-containing compound metabolic process	GSEA only	NA	NA	NA	positive	1.5844668292722	0.0451166823721247	68
+WT_drought	GO:0016074	sno(s)RNA metabolic process	GSEA only	NA	NA	NA	negative	-1.75069502138104	0.0451166823721247	18
+WT_drought	GO:0043144	sno(s)RNA processing	GSEA only	NA	NA	NA	negative	-1.75069502138104	0.0451166823721247	18
+WT_drought	GO:0007017	microtubule-based process	GSEA only	NA	NA	NA	negative	-1.32944999843792	0.0457405226263541	238
+WT_drought	GO:0045814	negative regulation of gene expression, epigenetic	GSEA only	NA	NA	NA	negative	-1.42470217191986	0.0457405226263541	141
+WT_drought	GO:0006829	zinc ion transport	GSEA only	NA	NA	NA	negative	-1.73629252101736	0.0468142370942364	23
+WT_drought	GO:0015996	chlorophyll catabolic process	GSEA only	NA	NA	NA	positive	1.67700242019819	0.0471051836531129	21
+WT_drought	GO:1902456	regulation of stomatal opening	GSEA only	NA	NA	NA	positive	1.67682878611104	0.0471051836531129	21
+WT_drought	GO:0010015	root morphogenesis	GSEA only	NA	NA	NA	negative	-1.2344771344599	0.0471051836531129	344
+WT_drought	GO:0009311	oligosaccharide metabolic process	GSEA only	NA	NA	NA	positive	1.59806644683556	0.0471051836531129	64
+WT_drought	GO:0002682	regulation of immune system process	GSEA only	NA	NA	NA	negative	-1.41324952623634	0.0471051836531129	141
+WT_drought	GO:0050776	regulation of immune response	GSEA only	NA	NA	NA	negative	-1.41324952623634	0.0471051836531129	141
+WT_drought	GO:0009688	abscisic acid biosynthetic process	GSEA only	NA	NA	NA	positive	1.6556997653395	0.0484457756696155	24
+WT_drought	GO:0043289	apocarotenoid biosynthetic process	GSEA only	NA	NA	NA	positive	1.6556997653395	0.0484457756696155	24
+WT_drought	GO:1902645	tertiary alcohol biosynthetic process	GSEA only	NA	NA	NA	positive	1.6556997653395	0.0484457756696155	24
+WT_drought	GO:0009407	toxin catabolic process	ORA only	positive	0.0005360571080518	10	positive	1.63744290973377	0.0566683523156079	44
+WT_drought	GO:0016311	dephosphorylation	ORA only	positive	0.0475838248933687	11	positive	1.44539630118073	0.087037503479755	102
+WT_drought	GO:0019760	glucosinolate metabolic process	ORA only	negative	0.0119009773983665	11	negative	-1.38694881755948	0.110284268504149	113
+WT_drought	GO:0050801	monoatomic ion homeostasis	ORA only	negative	0.0270012877450691	16	positive	1.29000170612423	0.12239394201029	241
+WT_drought	GO:0072348	sulfur compound transport	ORA only	negative	0.0476365154818506	5	negative	-1.46301264049007	0.131763475112597	31
+WT_drought	GO:0098771	inorganic ion homeostasis	ORA only	negative	0.0201856686697792	15	positive	1.29655240758297	0.139131243605246	207
+WT_drought	GO:0009690	cytokinin metabolic process	ORA only	negative	0.0155451555491075	6	negative	-1.36948618415897	0.192498218104063	36
+WT_drought	GO:0048878	chemical homeostasis	ORA only	negative	0.0034797752057743	25	positive	1.19499149563048	0.19266693163752	385
+WT_drought	GO:0055082	intracellular chemical homeostasis	ORA only	negative	0.0133185146792901	17	positive	1.21872796350316	0.207639691413936	241
+WT_drought	GO:0010167	response to nitrate	ORA only	negative	0.00842805806374588	6	negative	-1.31322482438125	0.254826876415865	31
+WT_drought	GO:0042592	homeostatic process	ORA only	negative	0.0134066523349124	25	positive	1.13390844865219	0.307769383264022	434
+WT_drought	GO:0042594	response to starvation	ORA only	positive	0.0453586001408427	18	positive	1.03637497042716	0.569499075534869	220
+WT_drought	GO:0042594	response to starvation	ORA only	negative	0.00557767965761857	17	positive	1.03637497042716	0.569499075534869	220
+WT_drought	GO:0031667	response to nutrient levels	ORA only	negative	0.000769929147811613	22	positive	1.01690135251423	0.606695869837297	275
+WT_drought	GO:0002239	response to oomycetes	ORA only	negative	0.0254373270030955	10	positive	0.889137886164097	0.804105179468285	109
+WT_drought	GO:0009651	response to salt stress	ORA only (not tested in GSEA: set size outside limits)	positive	6.15338573399116e-08	51	NA	NA	NA	NA
+WT_drought	GO:2000068	regulation of defense response to insect	ORA only (not tested in GSEA: set size outside limits)	positive	0.0319650312084446	4	NA	NA	NA	NA
+WT_drought	GO:0016104	triterpenoid biosynthetic process	ORA only (not tested in GSEA: set size outside limits)	positive	0.0397553284338039	4	NA	NA	NA	NA
+WT_drought	GO:0009098	L-leucine biosynthetic process	ORA only (not tested in GSEA: set size outside limits)	negative	0.000784712174158624	5	NA	NA	NA	NA
+WT_drought	GO:0009415	response to water	both	positive	3.26034034375186e-11	55	positive	2.30445221500416	1.27846153846154e-08	450
+WT_drought	GO:0001101	response to acid chemical	both	positive	3.26034034375186e-11	57	positive	2.21804048646134	1.27846153846154e-08	483
+WT_drought	GO:0009414	response to water deprivation	both	positive	7.33309277201858e-11	53	positive	2.32520640761265	1.27846153846154e-08	438
+WT_drought	GO:0009409	response to cold	both	positive	5.50032982297612e-10	50	positive	2.11512700892546	1.27846153846154e-08	423
+WT_drought	GO:0009611	response to wounding	both	positive	0.000151118493083126	28	positive	1.99887735206294	4.76278694865941e-08	257
+WT_drought	GO:0006869	lipid transport	both	positive	0.00470749765271423	14	positive	2.19087981633149	8.68015024709583e-08	107
+WT_drought	GO:0010876	lipid localization	both	positive	0.00484580954579258	14	positive	2.22453549784105	2.79303432038962e-07	109
+WT_drought	GO:0015849	organic acid transport	both	positive	0.0217140045366185	11	positive	2.20851219274073	3.38834463489125e-07	92
+WT_drought	GO:0046942	carboxylic acid transport	both	positive	0.0479072517872554	10	positive	2.17333827273386	1.62065478550566e-06	90
+WT_drought	GO:0001666	response to hypoxia	both	positive	0.0227828691282853	22	positive	1.82752764215085	3.83466031829603e-06	269
+WT_drought	GO:0070482	response to oxygen levels	both	positive	0.0277266141367279	22	positive	1.80885860600358	9.26885658042968e-06	274
+WT_drought	GO:0015850	organic hydroxy compound transport	both	positive	0.0188085757517663	6	positive	2.28255930038519	9.55153126576153e-06	28
+WT_drought	GO:0036293	response to decreased oxygen levels	both	positive	0.0270523020164434	22	positive	1.80935342845703	1.32506411575792e-05	273
+WT_drought	GO:0019748	secondary metabolic process	both	positive	0.0358880628791123	19	positive	1.83872647560773	1.78282820440286e-05	231
+WT_drought	GO:0010150	leaf senescence	both	positive	0.0124702112251957	17	positive	1.91059413678348	2.10803138699114e-05	169
+WT_drought	GO:0009079	pyruvate family amino acid biosynthetic process	both	negative	0.00296417833141008	5	negative	-2.34215540868095	2.10803138699114e-05	15
+WT_drought	GO:0009082	branched-chain amino acid biosynthetic process	both	negative	0.00678382799507239	5	negative	-2.40083571292742	2.31867292121219e-05	19
+WT_drought	GO:0090693	plant organ senescence	both	positive	0.00407345240589538	19	positive	1.86097497610563	2.74997985924227e-05	175
+WT_drought	GO:0009081	branched-chain amino acid metabolic process	both	negative	0.00565595126342176	7	negative	-2.25158111962527	3.24493198758389e-05	41
+WT_drought	GO:0009753	response to jasmonic acid	both	positive	0.0005360571080518	24	positive	1.79113870389959	8.65286528594608e-05	217
+WT_drought	GO:0070542	response to fatty acid	both	positive	0.000625116577553237	24	positive	1.75606877691351	0.000111223447646395	221
+WT_drought	GO:0071215	cellular response to abscisic acid stimulus	both	positive	0.00484580954579258	23	positive	1.76953227739914	0.000118264170390905	248
+WT_drought	GO:0097306	cellular response to alcohol	both	positive	0.00484580954579258	23	positive	1.76953227739914	0.000118264170390905	248
+WT_drought	GO:0071396	cellular response to lipid	both	positive	0.0112844249330898	35	positive	1.59091293165186	0.00012636760960535	479
+WT_drought	GO:0009738	abscisic acid-activated signaling pathway	both	positive	0.0371524419654082	18	positive	1.74488772667407	0.000162743142964427	213
+WT_drought	GO:0016144	S-glycoside biosynthetic process	both	negative	0.00010842230625806	10	negative	-2.18648597408267	0.000218929095555521	47
+WT_drought	GO:0019761	glucosinolate biosynthetic process	both	negative	0.00010842230625806	10	negative	-2.18648597408267	0.000218929095555521	47
+WT_drought	GO:1901659	glycosyl compound biosynthetic process	both	negative	0.000468205131467815	10	negative	-2.03424888413368	0.000219237539452172	56
+WT_drought	GO:0009620	response to fungus	both	positive	0.00204856059770584	32	positive	1.59376537270381	0.00025831371145173	370
+WT_drought	GO:0009269	response to desiccation	both	positive	0.00943372606023566	6	positive	2.07029334833981	0.00046817439543675	23
+WT_drought	GO:0009631	cold acclimation	both	positive	0.000104914359186047	13	positive	2.02905795810059	0.000494133868497456	63
+WT_drought	GO:0008643	carbohydrate transport	both	positive	0.00484580954579258	9	positive	1.98677338029061	0.000681523730538215	52
+WT_drought	GO:0006972	hyperosmotic response	both	positive	0.0142753161756638	10	positive	1.90422956234756	0.000876398153360115	71
+WT_drought	GO:0006879	intracellular iron ion homeostasis	both	negative	0.0138593804510054	6	negative	-2.07635122178953	0.00103977345507415	35
+WT_drought	GO:0003333	amino acid transmembrane transport	both	positive	0.00579749067057385	10	positive	1.91444056102672	0.00127343418170867	61
+WT_drought	GO:0006560	L-proline metabolic process	both	positive	0.0475838248933687	4	positive	1.99934001819276	0.00143490114831957	15
+WT_drought	GO:0006979	response to oxidative stress	both	positive	0.0133524895180117	31	positive	1.49685375060926	0.00232271837274734	412
+WT_drought	GO:0042538	hyperosmotic salinity response	both	positive	0.00524940839535468	10	positive	1.87826243906092	0.00263711709106088	60
+WT_drought	GO:0006551	L-leucine metabolic process	both	negative	0.00678382799507239	5	negative	-2.09387261560623	0.0034358234404585	19
+WT_drought	GO:0006865	amino acid transport	both	positive	0.0153791303468095	10	positive	1.79512174280635	0.0057741745549628	72
+WT_drought	GO:0070588	calcium ion transmembrane transport	both	positive	0.0217140045366185	8	positive	1.75592459271758	0.00715285245736803	53
+WT_drought	GO:2000022	regulation of jasmonic acid mediated signaling pathway	both	positive	0.00250241099016882	9	positive	1.79418624708801	0.00871326965955542	42
+WT_drought	GO:0006720	isoprenoid metabolic process	both	positive	0.0185432452872268	19	positive	1.48953306294545	0.011887359517745	211
+WT_drought	GO:0031669	cellular response to nutrient levels	both	negative	0.000522565576630722	18	negative	-1.44765000118001	0.0183372442995343	187
+WT_drought	GO:0006749	glutathione metabolic process	both	positive	0.00418787305113037	10	positive	1.71366744567946	0.0206649078326801	57
+WT_drought	GO:0055062	phosphate ion homeostasis	both	positive	0.0397553284338039	5	positive	1.77256505353492	0.0221925699337403	23
+WT_drought	GO:0009636	response to toxic substance	both	positive	0.0112844249330898	18	positive	1.52906267928917	0.0226187285494276	183
+WT_drought	GO:0006722	triterpenoid metabolic process	both	positive	5.16417654574247e-05	8	positive	1.80587235700012	0.0241914450396344	19
+WT_drought	GO:0015698	inorganic anion transport	both	negative	5.12770969770861e-05	15	negative	-1.53097135476805	0.0252847517621611	100
+WT_drought	GO:0098754	detoxification	both	positive	0.0142753161756638	16	positive	1.51475085747794	0.0265073125525901	159
+WT_drought	GO:0009736	cytokinin-activated signaling pathway	both	negative	0.00084145382774809	10	negative	-1.66436438458368	0.0265073125525901	63
+WT_drought	GO:0009735	response to cytokinin	both	negative	0.0017115671990658	13	negative	-1.51437780444329	0.0266373421635965	118
+WT_drought	GO:0009267	cellular response to starvation	both	negative	0.00364275877972632	15	negative	-1.38402908926025	0.0279416024551382	170
+WT_drought	GO:0015766	disaccharide transport	both	positive	0.0475838248933687	4	positive	1.7503978165612	0.0301138933946099	16
+WT_drought	GO:0015770	sucrose transport	both	positive	0.0475838248933687	4	positive	1.7503978165612	0.0301138933946099	16
+WT_drought	GO:0071368	cellular response to cytokinin stimulus	both	negative	0.00131647095699078	10	negative	-1.60487405075628	0.0405013340359617	68
+WT_drought	GO:2000142	regulation of DNA-templated transcription initiation	both	positive	0.0141939054470938	5	positive	1.7863101546139	0.0417158038909933	17
+WT_drought	GO:0009404	toxin metabolic process	both	positive	0.00484580954579258	10	positive	1.62577480899408	0.0421287228217967	59
+WT_drought	GO:0071214	cellular response to abiotic stimulus	both	positive	0.0142753161756638	20	positive	1.39990337957083	0.0437799995417846	223
+WT_drought	GO:0104004	cellular response to environmental stimulus	both	positive	0.0142753161756638	20	positive	1.39990337957083	0.0437799995417846	223
+WT_drought	GO:0006721	terpenoid metabolic process	both	positive	0.0185432452872268	17	positive	1.45500399419978	0.0440436329469737	179
+WT_drought	GO:0050832	defense response to fungus	both	positive	0.0114897988749995	23	positive	1.3866582597129	0.048454030011777	263

@@ -1,0 +1,4 @@
+contrast	HISAT2_DEGs	Salmon_DEGs	shared_DEGs	HISAT2_only	Salmon_only	shared_same_direction	percent_of_HISAT2_DEGs_shared	percent_of_Salmon_DEGs_shared	jaccard_index
+interaction	137	151	129	8	22	129	94.2	85.4	0.811
+WT_drought	1621	1614	1560	61	54	1560	96.2	96.7	0.931
+BRL3_drought	2257	2288	2195	62	93	2195	97.3	95.9	0.934

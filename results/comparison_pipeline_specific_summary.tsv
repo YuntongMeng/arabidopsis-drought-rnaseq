@@ -1,0 +1,23 @@
+contrast	significant_in	category	n_genes	n_large_count_difference	n_multi_isoform
+BRL3_drought	HISAT2 only	1. not tested in the other workflow	2	0	0
+BRL3_drought	HISAT2 only	2. below the fold-change threshold in the other workflow	22	0	14
+BRL3_drought	HISAT2 only	3. above the padj threshold in the other workflow	35	2	11
+BRL3_drought	HISAT2 only	4. different estimate	3	1	0
+BRL3_drought	Salmon only	1. not tested in the other workflow	21	1	5
+BRL3_drought	Salmon only	2. below the fold-change threshold in the other workflow	33	2	21
+BRL3_drought	Salmon only	3. above the padj threshold in the other workflow	31	7	12
+BRL3_drought	Salmon only	4. different estimate	8	4	2
+WT_drought	HISAT2 only	1. not tested in the other workflow	5	0	1
+WT_drought	HISAT2 only	2. below the fold-change threshold in the other workflow	14	0	8
+WT_drought	HISAT2 only	3. above the padj threshold in the other workflow	40	4	20
+WT_drought	HISAT2 only	4. different estimate	2	0	2
+WT_drought	Salmon only	1. not tested in the other workflow	12	2	4
+WT_drought	Salmon only	2. below the fold-change threshold in the other workflow	17	1	11
+WT_drought	Salmon only	3. above the padj threshold in the other workflow	19	3	9
+WT_drought	Salmon only	4. different estimate	6	5	3
+interaction	HISAT2 only	1. not tested in the other workflow	2	0	1
+interaction	HISAT2 only	3. above the padj threshold in the other workflow	6	0	2
+interaction	Salmon only	1. not tested in the other workflow	6	1	3
+interaction	Salmon only	2. below the fold-change threshold in the other workflow	1	0	1
+interaction	Salmon only	3. above the padj threshold in the other workflow	11	1	5
+interaction	Salmon only	4. different estimate	4	1	2

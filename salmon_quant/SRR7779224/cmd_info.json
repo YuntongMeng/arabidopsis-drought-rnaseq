@@ -1,0 +1,13 @@
+{
+  "salmon_version": "2.11.0",
+  "index": "reference/salmon_index",
+  "libType": "A",
+  "output": "salmon_quant/SRR7779224",
+  "mates1": [],
+  "mates2": [],
+  "unmatedReads": [
+    "raw_data/SRR7779224.fastq.gz"
+  ],
+  "threads": 8,
+  "sketch": false
+}
