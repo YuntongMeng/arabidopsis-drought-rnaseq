@@ -15,3 +15,6 @@ featureCounts v2.1.1
 
 R
 R version 4.6.1 (2026-06-24) -- "Happy Hop"
+
+Salmon (added 2026-11-16, scripts/upstream_salmon_workflow.sh)
+salmon 2.11.0

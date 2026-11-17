@@ -1,0 +1,4 @@
+contrast	genes_ranked	GO_terms_tested	significant_terms	NES_positive	NES_negative
+interaction	23253	1662	366	318	48
+WT_drought	23253	1662	339	163	176
+BRL3_drought	23253	1662	248	195	53

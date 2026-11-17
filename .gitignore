@@ -41,3 +41,12 @@ qc/wt_multiqc/wt_multiqc_report_data/
 counts/all_11samples_featureCounts.txt
 qc/*_fastqc/
 **/*_multiqc_report_data/
+
+# Salmon per-sample outputs: keep the small run logs and the
+# summary tables, not the per-transcript quantifications.
+# The negation re-includes the per-sample folders, which the
+# earlier SRR*/ rule (for SRA download folders) would ignore.
+!salmon_quant/SRR*/
+salmon_quant/*/quant.sf
+salmon_quant/*/aux_info/
+salmon_quant/*/libParams/

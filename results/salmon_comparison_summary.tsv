@@ -1,0 +1,6 @@
+comparison	HISAT2_total_DEGs	HISAT2_positive_or_up	HISAT2_negative_or_down	Salmon_total_DEGs	Salmon_positive_or_up	Salmon_negative_or_down
+WT drought vs watered	1621	986	635	1614	985	629
+BRL3 drought vs watered	2257	1337	920	2288	1355	933
+BRL3 vs WT under watered	539	105	434	544	102	442
+BRL3 vs WT under drought	591	196	395	592	197	395
+Genotype x drought interaction	137	57	80	151	64	87

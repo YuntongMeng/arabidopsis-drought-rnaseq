@@ -1,0 +1,7 @@
+contrast	gene_set	n_genes	pearson_r	spearman_rho
+interaction	all shared genes	22970	0.932199380638564	0.961244887809156
+interaction	DEG in either workflow	154	0.784347826123401	0.994456902995802
+WT_drought	all shared genes	22970	0.969535426704196	0.980179122955675
+WT_drought	DEG in either workflow	1664	0.974554262346584	0.995497902037289
+BRL3_drought	all shared genes	22970	0.977453531814769	0.979345235405785
+BRL3_drought	DEG in either workflow	2328	0.99596801437276	0.993932891907682
